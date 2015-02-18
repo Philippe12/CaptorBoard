@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -60,6 +60,66 @@
 <libraries>
 <library name="pfo">
 <packages>
+<package name="SOD80C">
+<smd name="1" x="-1.852396875" y="0" dx="0.8128" dy="1.7018" layer="1"/>
+<smd name="2" x="1.852396875" y="0" dx="0.8128" dy="1.7018" layer="1" rot="R180"/>
+<wire x1="-2.9972" y1="0" x2="-3.7592" y2="0" width="0.1524" layer="51"/>
+<wire x1="-3.3782" y1="0.381" x2="-3.3782" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-1.1176" y1="-0.9144" x2="1.1176" y2="-0.9144" width="0.1524" layer="51"/>
+<wire x1="1.1176" y1="0.9144" x2="-1.1176" y2="0.9144" width="0.1524" layer="51"/>
+<wire x1="-2.2352" y1="0" x2="-2.9972" y2="0" width="0.1524" layer="25"/>
+<wire x1="-2.6162" y1="0.381" x2="-2.6162" y2="-0.381" width="0.1524" layer="25"/>
+<wire x1="-1.8542" y1="-0.7874" x2="1.8542" y2="-0.7874" width="0.1524" layer="25"/>
+<wire x1="1.8542" y1="-0.7874" x2="1.8542" y2="0.7874" width="0.1524" layer="25"/>
+<wire x1="1.8542" y1="0.7874" x2="-1.8542" y2="0.7874" width="0.1524" layer="25"/>
+<wire x1="-1.8542" y1="0.7874" x2="-1.8542" y2="-0.7874" width="0.1524" layer="25"/>
+<text x="-2.8702" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
+</package>
+<package name="FQ7050B">
+<description>&lt;b&gt;kHz RANGE CRYSTAL UNIT&lt;/b&gt;&lt;p&gt;
+LOW PROFILE SMD&lt;b&gt;
+Source: Epson Toyocom FC-12M.pdf</description>
+<wire x1="-3.525" y1="2.5" x2="3.525" y2="2.5" width="0.2032" layer="51"/>
+<wire x1="3.525" y1="2.5" x2="3.525" y2="-2.5" width="0.2032" layer="51"/>
+<wire x1="3.525" y1="-2.5" x2="-3.525" y2="-2.5" width="0.2032" layer="51"/>
+<wire x1="-3.525" y1="-2.5" x2="-3.525" y2="2.5" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="0.175" width="0" layer="21"/>
+<smd name="1" x="-2.95" y="1.35" dx="1.7" dy="2.1" layer="1" rot="R270"/>
+<smd name="4" x="-2.95" y="-1.35" dx="1.7" dy="2.1" layer="1" rot="R90"/>
+<text x="-3.025" y="2.925" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.225" y="-4.15" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="3" x="2.95" y="1.35" dx="1.7" dy="2.1" layer="1" rot="R90"/>
+<smd name="2" x="2.95" y="-1.35" dx="1.7" dy="2.1" layer="1" rot="R90"/>
+<rectangle x1="-2" y1="-2.6" x2="2" y2="2.6" layer="39"/>
+</package>
+<package name="SHT25">
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="0.9" x2="-1" y2="1" width="0.127" layer="21"/>
+<wire x1="-1" y1="1" x2="-0.7" y2="1" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="1" x2="-0.6" y2="0.9" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="0.9" x2="-0.6" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="-0.9" x2="-0.7" y2="-1" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="-1" x2="-1" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1" x2="-1.1" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="-0.9" x2="-1.1" y2="0.9" width="0.127" layer="21"/>
+<smd name="P$1" x="1" y="1.4" dx="0.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="P$2" x="0" y="1.4" dx="0.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="P$3" x="-1" y="1.4" dx="0.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="P$4" x="-1" y="-1.4" dx="0.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="P$5" x="0" y="-1.4" dx="0.6" dy="0.4" layer="1" rot="R90"/>
+<smd name="P$6" x="1" y="-1.4" dx="0.6" dy="0.4" layer="1" rot="R90"/>
+<polygon width="0.127" layer="1">
+<vertex x="-1.15" y="0.7"/>
+<vertex x="0.8" y="0.7"/>
+<vertex x="1.15" y="0.4"/>
+<vertex x="1.15" y="-0.7"/>
+<vertex x="-1.15" y="-0.7"/>
+</polygon>
+</package>
 <package name="TQFP64_10X10MC">
 <smd name="32" x="-5.6134" y="3.75000625" dx="0.2794" dy="1.4732" layer="1" rot="R270"/>
 <smd name="30" x="-5.6134" y="3.25000625" dx="0.2794" dy="1.4732" layer="1" rot="R270"/>
@@ -426,75 +486,50 @@
 <text x="-2.8702" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
 </package>
-<package name="SOD80C">
-<smd name="1" x="-1.852396875" y="0" dx="0.8128" dy="1.7018" layer="1"/>
-<smd name="2" x="1.852396875" y="0" dx="0.8128" dy="1.7018" layer="1" rot="R180"/>
-<wire x1="-2.9972" y1="0" x2="-3.7592" y2="0" width="0.1524" layer="51"/>
-<wire x1="-3.3782" y1="0.381" x2="-3.3782" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-1.1176" y1="-0.9144" x2="1.1176" y2="-0.9144" width="0.1524" layer="51"/>
-<wire x1="1.1176" y1="0.9144" x2="-1.1176" y2="0.9144" width="0.1524" layer="51"/>
-<wire x1="-2.2352" y1="0" x2="-2.9972" y2="0" width="0.1524" layer="25"/>
-<wire x1="-2.6162" y1="0.381" x2="-2.6162" y2="-0.381" width="0.1524" layer="25"/>
-<wire x1="-1.8542" y1="-0.7874" x2="1.8542" y2="-0.7874" width="0.1524" layer="25"/>
-<wire x1="1.8542" y1="-0.7874" x2="1.8542" y2="0.7874" width="0.1524" layer="25"/>
-<wire x1="1.8542" y1="0.7874" x2="-1.8542" y2="0.7874" width="0.1524" layer="25"/>
-<wire x1="-1.8542" y1="0.7874" x2="-1.8542" y2="-0.7874" width="0.1524" layer="25"/>
-<text x="-2.8702" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
-<text x="-3.4544" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
-</package>
-<package name="FQ7050B">
-<description>&lt;b&gt;kHz RANGE CRYSTAL UNIT&lt;/b&gt;&lt;p&gt;
-LOW PROFILE SMD&lt;b&gt;
-Source: Epson Toyocom FC-12M.pdf</description>
-<wire x1="-3.525" y1="2.5" x2="3.525" y2="2.5" width="0.2032" layer="51"/>
-<wire x1="3.525" y1="2.5" x2="3.525" y2="-2.5" width="0.2032" layer="51"/>
-<wire x1="3.525" y1="-2.5" x2="-3.525" y2="-2.5" width="0.2032" layer="51"/>
-<wire x1="-3.525" y1="-2.5" x2="-3.525" y2="2.5" width="0.2032" layer="51"/>
-<circle x="0" y="0" radius="0.175" width="0" layer="21"/>
-<smd name="1" x="-2.9" y="1.35" dx="0.7" dy="1.4" layer="1" rot="R270"/>
-<smd name="4" x="-2.9" y="-1.25" dx="0.7" dy="1.4" layer="1" rot="R90"/>
-<text x="-3.025" y="2.925" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.225" y="-4.15" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="3" x="2.9" y="1.5" dx="1.27" dy="0.635" layer="1"/>
-<smd name="2" x="2.9" y="-1.4" dx="1.27" dy="0.635" layer="1"/>
-<rectangle x1="-4" y1="0.5" x2="-1.9" y2="2.2" layer="1"/>
-<rectangle x1="-4" y1="-2.2" x2="-1.9" y2="-0.5" layer="1"/>
-<rectangle x1="1.9" y1="0.5" x2="4" y2="2.2" layer="1"/>
-<rectangle x1="1.9" y1="-2.2" x2="4" y2="-0.5" layer="1"/>
-<rectangle x1="-4.1" y1="0.4" x2="-1.8" y2="2.3" layer="39"/>
-<rectangle x1="-4.1" y1="-2.3" x2="-1.8" y2="-0.4" layer="39"/>
-<rectangle x1="1.8" y1="-2.3" x2="4.1" y2="-0.4" layer="39"/>
-<rectangle x1="1.8" y1="0.4" x2="4.1" y2="2.3" layer="39"/>
-</package>
-<package name="SHT25">
-<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
-<wire x1="-1.1" y1="0.9" x2="-1" y2="1" width="0.127" layer="21"/>
-<wire x1="-1" y1="1" x2="-0.7" y2="1" width="0.127" layer="21"/>
-<wire x1="-0.7" y1="1" x2="-0.6" y2="0.9" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="0.9" x2="-0.6" y2="-0.9" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="-0.9" x2="-0.7" y2="-1" width="0.127" layer="21"/>
-<wire x1="-0.7" y1="-1" x2="-1" y2="-1" width="0.127" layer="21"/>
-<wire x1="-1" y1="-1" x2="-1.1" y2="-0.9" width="0.127" layer="21"/>
-<wire x1="-1.1" y1="-0.9" x2="-1.1" y2="0.9" width="0.127" layer="21"/>
-<smd name="P$1" x="1" y="1.4" dx="0.6" dy="0.4" layer="1" rot="R90"/>
-<smd name="P$2" x="0" y="1.4" dx="0.6" dy="0.4" layer="1" rot="R90"/>
-<smd name="P$3" x="-1" y="1.4" dx="0.6" dy="0.4" layer="1" rot="R90"/>
-<smd name="P$4" x="-1" y="-1.4" dx="0.6" dy="0.4" layer="1" rot="R90"/>
-<smd name="P$5" x="0" y="-1.4" dx="0.6" dy="0.4" layer="1" rot="R90"/>
-<smd name="P$6" x="1" y="-1.4" dx="0.6" dy="0.4" layer="1" rot="R90"/>
-<polygon width="0.127" layer="1">
-<vertex x="-1.15" y="0.7"/>
-<vertex x="0.8" y="0.7"/>
-<vertex x="1.15" y="0.4"/>
-<vertex x="1.15" y="-0.7"/>
-<vertex x="-1.15" y="-0.7"/>
-</polygon>
-</package>
 </packages>
 <symbols>
+<symbol name="DIODE">
+<pin name="ANODE" x="0" y="0" visible="off" length="short" direction="pas"/>
+<pin name="CATHODE" x="10.16" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="3.81" y1="1.905" x2="3.81" y2="0" width="0.2032" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="-1.905" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="-1.905" x2="6.35" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="6.35" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="7.62" y2="0" width="0.2032" layer="94"/>
+<wire x1="6.35" y1="0" x2="3.81" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="6.35" y2="0" width="0.2032" layer="94"/>
+<text x="0.6858" y="-4.2672" size="1.27" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-0.2794" y="2.6924" size="1.27" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+</symbol>
+<symbol name="Q">
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
+<text x="2.54" y="1.016" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
+<text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
+<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="SHT25">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="SDA" x="-12.7" y="2.54" visible="pin" length="middle" swaplevel="1"/>
+<pin name="VSS" x="12.7" y="-2.54" visible="pin" length="middle" swaplevel="2" rot="R180"/>
+<pin name="VDD" x="12.7" y="2.54" visible="pin" length="middle" swaplevel="5" rot="R180"/>
+<pin name="SCL" x="-12.7" y="-2.54" visible="pin" length="middle" swaplevel="6"/>
+<text x="-5.08" y="7.62" size="1.778" layer="94">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="94">&gt;VALUE</text>
+</symbol>
 <symbol name="PIC32MX795F512H-80I/PT">
 <pin name="ETXEN/PMD5/RE5" x="0" y="0"/>
 <pin name="ETXD0/PMD6/RE6" x="0" y="-2.54"/>
@@ -567,50 +602,64 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <text x="68.9356" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="67.9958" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
 </symbol>
-<symbol name="DIODE">
-<pin name="ANODE" x="0" y="0" visible="off" length="short" direction="pas"/>
-<pin name="CATHODE" x="10.16" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<wire x1="3.81" y1="1.905" x2="3.81" y2="0" width="0.2032" layer="94"/>
-<wire x1="3.81" y1="0" x2="3.81" y2="-1.905" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="0" x2="3.81" y2="0" width="0.2032" layer="94"/>
-<wire x1="6.35" y1="-1.905" x2="6.35" y2="0" width="0.2032" layer="94"/>
-<wire x1="6.35" y1="0" x2="6.35" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="6.35" y1="0" x2="7.62" y2="0" width="0.2032" layer="94"/>
-<wire x1="6.35" y1="0" x2="3.81" y2="1.905" width="0.2032" layer="94"/>
-<wire x1="3.81" y1="-1.905" x2="6.35" y2="0" width="0.2032" layer="94"/>
-<text x="0.6858" y="-4.2672" size="1.27" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
-<text x="-0.2794" y="2.6924" size="1.27" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-</symbol>
-<symbol name="Q">
-<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.254" layer="94"/>
-<wire x1="1.016" y1="1.778" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.778" x2="-1.016" y2="-1.778" width="0.254" layer="94"/>
-<text x="2.54" y="1.016" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-2.159" y="-1.143" size="0.8636" layer="93">1</text>
-<text x="1.524" y="-1.143" size="0.8636" layer="93">2</text>
-<pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
-</symbol>
-<symbol name="SHT25">
-<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<pin name="SDA" x="-12.7" y="2.54" visible="pin" length="middle" swaplevel="1"/>
-<pin name="VSS" x="12.7" y="-2.54" visible="pin" length="middle" swaplevel="2" rot="R180"/>
-<pin name="VDD" x="12.7" y="2.54" visible="pin" length="middle" swaplevel="5" rot="R180"/>
-<pin name="SCL" x="-12.7" y="-2.54" visible="pin" length="middle" swaplevel="6"/>
-<text x="-5.08" y="7.62" size="1.778" layer="94">&gt;NAME</text>
-<text x="-5.08" y="-7.62" size="1.778" layer="94">&gt;VALUE</text>
-</symbol>
 </symbols>
 <devicesets>
+<deviceset name="BAS32L" prefix="CR">
+<gates>
+<gate name="A" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD80C">
+<connects>
+<connect gate="A" pin="ANODE" pad="2"/>
+<connect gate="A" pin="CATHODE" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="bas32l" constant="no"/>
+<attribute name="VENDOR" value="NXP" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FQ7050B-8.000" prefix="Q" uservalue="yes">
+<description>&lt;b&gt;kHz RANGE CRYSTAL UNIT&lt;/b&gt;&lt;p&gt;
+LOW PROFILE SMD&lt;b&gt;
+Source: Epson Toyocom FC-12M.pdf</description>
+<gates>
+<gate name="G$1" symbol="Q" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FQ7050B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SHT25" prefix="U">
+<gates>
+<gate name="G$1" symbol="SHT25" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SHT25">
+<connects>
+<connect gate="G$1" pin="SCL" pad="P$6"/>
+<connect gate="G$1" pin="SDA" pad="P$1"/>
+<connect gate="G$1" pin="VDD" pad="P$5"/>
+<connect gate="G$1" pin="VSS" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="PIC32MX795F512H-80I/PT" prefix="U">
 <gates>
 <gate name="A" symbol="PIC32MX795F512H-80I/PT" x="0" y="0"/>
@@ -688,62 +737,6 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="PIC32MX795F512H-80I/PT" constant="no"/>
 <attribute name="VENDOR" value="Microchip" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BAS32L" prefix="CR">
-<gates>
-<gate name="A" symbol="DIODE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOD80C">
-<connects>
-<connect gate="A" pin="ANODE" pad="2"/>
-<connect gate="A" pin="CATHODE" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="bas32l" constant="no"/>
-<attribute name="VENDOR" value="NXP" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FQ7050B-8.000" prefix="Q" uservalue="yes">
-<description>&lt;b&gt;kHz RANGE CRYSTAL UNIT&lt;/b&gt;&lt;p&gt;
-LOW PROFILE SMD&lt;b&gt;
-Source: Epson Toyocom FC-12M.pdf</description>
-<gates>
-<gate name="G$1" symbol="Q" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="FQ7050B">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SHT25" prefix="U">
-<gates>
-<gate name="G$1" symbol="SHT25" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SHT25">
-<connects>
-<connect gate="G$1" pin="SCL" pad="P$6"/>
-<connect gate="G$1" pin="SDA" pad="P$1"/>
-<connect gate="G$1" pin="VDD" pad="P$5"/>
-<connect gate="G$1" pin="VSS" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -12575,7 +12568,6 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="pfo" deviceset="PIC32MX795F512H-80I/PT" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="+3V32" library="supply1" deviceset="+3V3" device=""/>
@@ -12614,13 +12606,13 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <part name="U2" library="pfo" deviceset="SHT25" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
+<part name="U1" library="pfo" deviceset="PIC32MX795F512H-80I/PT" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U1" gate="A" x="0" y="83.82"/>
 <instance part="GND2" gate="1" x="-22.86" y="-12.7"/>
 <instance part="GND4" gate="1" x="157.48" y="-50.8"/>
 <instance part="+3V32" gate="G$1" x="-25.4" y="96.52"/>
@@ -12659,38 +12651,39 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <instance part="U2" gate="G$1" x="233.68" y="68.58"/>
 <instance part="GND8" gate="1" x="251.46" y="58.42"/>
 <instance part="+3V2" gate="G$1" x="251.46" y="86.36"/>
+<instance part="U1" gate="A" x="0" y="83.82"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="VSS_3"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="0" y1="22.86" x2="-22.86" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="22.86" x2="-22.86" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="VSS_2"/>
 <wire x1="0" y1="63.5" x2="-22.86" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="63.5" x2="-22.86" y2="35.56" width="0.1524" layer="91"/>
 <junction x="-22.86" y="22.86"/>
 <wire x1="-22.86" y1="35.56" x2="-22.86" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="AVSS"/>
 <wire x1="0" y1="35.56" x2="-22.86" y2="35.56" width="0.1524" layer="91"/>
 <junction x="-22.86" y="35.56"/>
+<pinref part="U1" gate="A" pin="VSS_2"/>
+<pinref part="U1" gate="A" pin="AVSS"/>
+<pinref part="U1" gate="A" pin="VSS_3"/>
 </segment>
 <segment>
-<pinref part="U1" gate="A" pin="VSS"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="147.32" y1="25.4" x2="157.48" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="25.4" x2="157.48" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="17.78" x2="157.48" y2="-45.72" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="VDD_4"/>
 <wire x1="157.48" y1="-45.72" x2="157.48" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="17.78" x2="157.48" y2="17.78" width="0.1524" layer="91"/>
 <junction x="157.48" y="17.78"/>
 <pinref part="X1" gate="G$1" pin="5"/>
 <wire x1="210.82" y1="-45.72" x2="157.48" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="157.48" y="-45.72"/>
+<pinref part="U1" gate="A" pin="VDD_4"/>
+<pinref part="U1" gate="A" pin="VSS"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
@@ -12753,20 +12746,20 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="VDD_3"/>
 <pinref part="+3V32" gate="G$1" pin="+3V3"/>
 <wire x1="0" y1="20.32" x2="-25.4" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="20.32" x2="-25.4" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="VDD_2"/>
 <wire x1="-25.4" y1="60.96" x2="-25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="0" y1="60.96" x2="-25.4" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-25.4" y="60.96"/>
+<pinref part="U1" gate="A" pin="VDD_2"/>
+<pinref part="U1" gate="A" pin="VDD_3"/>
 </segment>
 <segment>
-<pinref part="U1" gate="A" pin="VDD"/>
 <pinref part="+3V34" gate="G$1" pin="+3V3"/>
 <wire x1="147.32" y1="66.04" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="66.04" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="VDD"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
@@ -12809,7 +12802,6 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="VCAP/VCORE"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="63.5" x2="160.02" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="63.5" x2="160.02" y2="60.96" width="0.1524" layer="91"/>
@@ -12817,11 +12809,11 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="160.02" y1="63.5" x2="172.72" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="63.5" x2="172.72" y2="60.96" width="0.1524" layer="91"/>
 <junction x="160.02" y="63.5"/>
+<pinref part="U1" gate="A" pin="VCAP/VCORE"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="AVDD"/>
 <pinref part="C1" gate="G$1" pin="+"/>
 <wire x1="0" y1="38.1" x2="-48.26" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="38.1" x2="-58.42" y2="38.1" width="0.1524" layer="91"/>
@@ -12832,6 +12824,7 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="-66.04" y1="38.1" x2="-58.42" y2="38.1" width="0.1524" layer="91"/>
 <junction x="-58.42" y="38.1"/>
+<pinref part="U1" gate="A" pin="AVDD"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -12861,13 +12854,12 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <pinref part="CR2" gate="A" pin="CATHODE"/>
 <wire x1="-50.8" y1="81.28" x2="-15.24" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="81.28" x2="-15.24" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U1" gate="A" pin="*MCLR"/>
 <wire x1="-15.24" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="*MCLR"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="OSC2/CLKO/RC15"/>
 <wire x1="147.32" y1="22.86" x2="177.8" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="22.86" x2="177.8" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="2"/>
@@ -12875,11 +12867,11 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="187.96" y1="27.94" x2="187.96" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="27.94" x2="195.58" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="OSC2/CLKO/RC15"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="OSC1/CLKI/RC12"/>
 <wire x1="147.32" y1="20.32" x2="177.8" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="20.32" x2="177.8" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="1"/>
@@ -12887,24 +12879,25 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="187.96" y1="12.7" x2="187.96" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="12.7" x2="195.58" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="OSC1/CLKI/RC12"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="D+/RG2"/>
 <wire x1="147.32" y1="15.24" x2="162.56" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="15.24" x2="162.56" y2="-40.64" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="3"/>
 <wire x1="162.56" y1="-40.64" x2="210.82" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="D+/RG2"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="D-/RG3"/>
 <wire x1="147.32" y1="12.7" x2="165.1" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="X1" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="12.7" x2="165.1" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="-38.1" x2="210.82" y2="-38.1" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="D-/RG3"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -12913,6 +12906,20 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <pinref part="X1" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="-25.4" x2="200.66" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-35.56" x2="210.82" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="VBUS"/>
+<wire x1="147.32" y1="7.62" x2="167.64" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="7.62" x2="167.64" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="-35.56" x2="200.66" y2="-35.56" width="0.1524" layer="91"/>
+<junction x="200.66" y="-35.56"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="X1" gate="G$1" pin="4"/>
+<wire x1="210.82" y1="-43.18" x2="160.02" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="-43.18" x2="160.02" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="USBID/RF3"/>
+<wire x1="160.02" y1="5.08" x2="147.32" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
