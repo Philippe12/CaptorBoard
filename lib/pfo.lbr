@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1271,6 +1271,31 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <text x="-2.8702" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
 </package>
+<package name="MRF24J40MA">
+<wire x1="0" y1="16.002" x2="15.748" y2="16.002" width="0.127" layer="21"/>
+<wire x1="15.748" y1="16.002" x2="15.748" y2="0" width="0.127" layer="21"/>
+<wire x1="15.748" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="16.002" width="0.127" layer="21"/>
+<wire x1="0" y1="16.002" x2="-1.016" y2="16.002" width="0.127" layer="21"/>
+<wire x1="-1.016" y1="16.002" x2="-1.016" y2="27.94" width="0.127" layer="21"/>
+<wire x1="-1.016" y1="27.94" x2="16.764" y2="27.94" width="0.127" layer="21"/>
+<wire x1="16.764" y1="27.94" x2="16.764" y2="16.002" width="0.127" layer="21"/>
+<wire x1="16.764" y1="16.002" x2="15.748" y2="16.002" width="0.127" layer="21"/>
+<pad name="SCK" x="0" y="1.524" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="SDI" x="0" y="4.064" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="INT" x="0" y="6.604" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="WAKE" x="0" y="9.144" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="RESET" x="0" y="11.684" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="GND" x="0" y="14.224" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="SDO" x="15.748" y="1.524" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="CS(LOW)" x="15.748" y="4.064" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="NC" x="15.748" y="6.604" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="VIN" x="15.748" y="9.144" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="GND1" x="15.748" y="11.684" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="GND2" x="15.748" y="14.224" drill="0.8" diameter="2.032" shape="square"/>
+<text x="2.54" y="-2.54" size="1.27" layer="25">MRF24J40MA</text>
+<text x="2.032" y="13.97" size="1.27" layer="25">1</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODEV">
@@ -1444,6 +1469,29 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="53.34" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
 <text x="25.7556" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="24.8158" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="MRF24J40MA">
+<wire x1="5.08" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-20.32" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="7.62" x2="-20.32" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-22.86" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-22.86" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-12.7" y="-25.4" size="1.27" layer="94">MRF24J40MA</text>
+<pin name="GND" x="-25.4" y="5.08" length="middle"/>
+<pin name="RESET(LOW)" x="-25.4" y="0" length="middle"/>
+<pin name="WAKE" x="-25.4" y="-5.08" length="middle"/>
+<pin name="INT" x="-25.4" y="-10.16" length="middle"/>
+<pin name="SDI" x="-25.4" y="-15.24" length="middle"/>
+<pin name="SCK" x="-25.4" y="-20.32" length="middle"/>
+<pin name="SDO" x="10.16" y="-20.32" length="middle" rot="R180"/>
+<pin name="CS(LOW)" x="10.16" y="-15.24" length="middle" rot="R180"/>
+<pin name="VIN" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND1" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="GND2" x="10.16" y="5.08" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1633,6 +1681,31 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="mpl115a2" constant="no"/>
 <attribute name="VENDOR" value="Freescale" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MRF24J40MA" prefix="U">
+<gates>
+<gate name="G$1" symbol="MRF24J40MA" x="2.54" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="MRF24J40MA">
+<connects>
+<connect gate="G$1" pin="CS(LOW)" pad="CS(LOW)"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND1" pad="GND1"/>
+<connect gate="G$1" pin="GND2" pad="GND2"/>
+<connect gate="G$1" pin="INT" pad="INT"/>
+<connect gate="G$1" pin="RESET(LOW)" pad="RESET"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SDI" pad="SDI"/>
+<connect gate="G$1" pin="SDO" pad="SDO"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+<connect gate="G$1" pin="WAKE" pad="WAKE"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
