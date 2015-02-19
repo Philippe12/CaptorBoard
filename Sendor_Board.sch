@@ -12607,6 +12607,9 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="U1" library="pfo" deviceset="PIC32MX795F512H-80I/PT" device=""/>
+<part name="R4" library="resistor" deviceset="R-EU_" device="R1206" value="2.2k"/>
+<part name="R5" library="resistor" deviceset="R-EU_" device="R1206" value="2.2k"/>
+<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12652,6 +12655,9 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <instance part="GND8" gate="1" x="251.46" y="58.42"/>
 <instance part="+3V2" gate="G$1" x="251.46" y="86.36"/>
 <instance part="U1" gate="A" x="0" y="83.82"/>
+<instance part="R4" gate="G$1" x="205.74" y="86.36" rot="R270"/>
+<instance part="R5" gate="G$1" x="218.44" y="86.36" rot="R270"/>
+<instance part="+3V3" gate="G$1" x="213.36" y="104.14"/>
 </instances>
 <busses>
 </busses>
@@ -12799,6 +12805,17 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="246.38" y1="71.12" x2="251.46" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="71.12" x2="251.46" y2="83.82" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="91.44" x2="205.74" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="96.52" x2="213.36" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="96.52" x2="218.44" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="96.52" x2="218.44" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<wire x1="213.36" y1="101.6" x2="213.36" y2="96.52" width="0.1524" layer="91"/>
+<junction x="213.36" y="96.52"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -12920,6 +12937,35 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="160.02" y1="-43.18" x2="160.02" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="USBID/RF3"/>
 <wire x1="160.02" y1="5.08" x2="147.32" y2="5.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="AERXD0/ETXD2/*SS1A/U1BRX/*U1ACTS/SDA1/IC2/INT2/RD9"/>
+<wire x1="147.32" y1="30.48" x2="185.42" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="30.48" x2="185.42" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="50.8" x2="205.74" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="50.8" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="SDA"/>
+<wire x1="220.98" y1="71.12" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="71.12" x2="205.74" y2="81.28" width="0.1524" layer="91"/>
+<junction x="205.74" y="71.12"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="ECOL/AERXDV/SCL1/IC3/PMCS2/PMA15/INT3/RD10"/>
+<wire x1="147.32" y1="33.02" x2="187.96" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="33.02" x2="187.96" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="48.26" x2="208.28" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="48.26" x2="208.28" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="SCL"/>
+<wire x1="208.28" y1="66.04" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="66.04" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="66.04" x2="218.44" y2="81.28" width="0.1524" layer="91"/>
+<junction x="218.44" y="66.04"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
