@@ -504,6 +504,31 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <text x="-2.8702" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
 </package>
+<package name="MRF24J40MA">
+<wire x1="0" y1="16.002" x2="15.748" y2="16.002" width="0.127" layer="21"/>
+<wire x1="15.748" y1="16.002" x2="15.748" y2="0" width="0.127" layer="21"/>
+<wire x1="15.748" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="16.002" width="0.127" layer="21"/>
+<wire x1="0" y1="16.002" x2="-1.016" y2="16.002" width="0.127" layer="21"/>
+<wire x1="-1.016" y1="16.002" x2="-1.016" y2="27.94" width="0.127" layer="21"/>
+<wire x1="-1.016" y1="27.94" x2="16.764" y2="27.94" width="0.127" layer="21"/>
+<wire x1="16.764" y1="27.94" x2="16.764" y2="16.002" width="0.127" layer="21"/>
+<wire x1="16.764" y1="16.002" x2="15.748" y2="16.002" width="0.127" layer="21"/>
+<pad name="SCK" x="0" y="1.524" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="SDI" x="0" y="4.064" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="INT" x="0" y="6.604" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="WAKE" x="0" y="9.144" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="RESET" x="0" y="11.684" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="GND" x="0" y="14.224" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="SDO" x="15.748" y="1.524" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="CS(LOW)" x="15.748" y="4.064" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="NC" x="15.748" y="6.604" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="VIN" x="15.748" y="9.144" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="GND1" x="15.748" y="11.684" drill="0.8" diameter="2.032" shape="square"/>
+<pad name="GND2" x="15.748" y="14.224" drill="0.8" diameter="2.032" shape="square"/>
+<text x="2.54" y="-2.54" size="1.27" layer="25">MRF24J40MA</text>
+<text x="2.032" y="13.97" size="1.27" layer="25">1</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE">
@@ -635,6 +660,29 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="27.94" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
 <text x="10.5156" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="9.5758" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="MRF24J40MA">
+<wire x1="5.08" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-20.32" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="7.62" x2="-20.32" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-22.86" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-22.86" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-12.7" y="-25.4" size="1.27" layer="94">MRF24J40MA</text>
+<pin name="GND" x="-25.4" y="5.08" length="middle"/>
+<pin name="RESET(LOW)" x="-25.4" y="0" length="middle"/>
+<pin name="WAKE" x="-25.4" y="-5.08" length="middle"/>
+<pin name="INT" x="-25.4" y="-10.16" length="middle"/>
+<pin name="SDI" x="-25.4" y="-15.24" length="middle"/>
+<pin name="SCK" x="-25.4" y="-20.32" length="middle"/>
+<pin name="SDO" x="10.16" y="-20.32" length="middle" rot="R180"/>
+<pin name="CS(LOW)" x="10.16" y="-15.24" length="middle" rot="R180"/>
+<pin name="VIN" x="10.16" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND1" x="10.16" y="0" length="middle" rot="R180"/>
+<pin name="GND2" x="10.16" y="5.08" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -796,6 +844,31 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="mpl115a2" constant="no"/>
 <attribute name="VENDOR" value="Freescale" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MRF24J40MA" prefix="U">
+<gates>
+<gate name="G$1" symbol="MRF24J40MA" x="2.54" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="MRF24J40MA">
+<connects>
+<connect gate="G$1" pin="CS(LOW)" pad="CS(LOW)"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND1" pad="GND1"/>
+<connect gate="G$1" pin="GND2" pad="GND2"/>
+<connect gate="G$1" pin="INT" pad="INT"/>
+<connect gate="G$1" pin="RESET(LOW)" pad="RESET"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SDI" pad="SDI"/>
+<connect gate="G$1" pin="SDO" pad="SDO"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+<connect gate="G$1" pin="WAKE" pad="WAKE"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -12677,6 +12750,11 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <part name="C14" library="resistor" deviceset="C-EU" device="C1206K" value="100nF"/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
+<part name="U4" library="pfo" deviceset="MRF24J40MA" device=""/>
+<part name="GND11" library="supply1" deviceset="GND" device=""/>
+<part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
+<part name="C15" library="resistor" deviceset="C-EU" device="C1206K" value="100nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -12733,6 +12811,11 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <instance part="C14" gate="G$1" x="50.8" y="-129.54"/>
 <instance part="P+2" gate="1" x="172.72" y="15.24"/>
 <instance part="GND10" gate="1" x="-91.44" y="-86.36"/>
+<instance part="U4" gate="G$1" x="193.04" y="-91.44"/>
+<instance part="GND11" gate="1" x="238.76" y="-99.06"/>
+<instance part="GND12" gate="1" x="139.7" y="-93.98"/>
+<instance part="+3V5" gate="G$1" x="231.14" y="-60.96"/>
+<instance part="C15" gate="G$1" x="238.76" y="-76.2"/>
 </instances>
 <busses>
 </busses>
@@ -12842,6 +12925,25 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <junction x="63.5" y="-111.76"/>
 <junction x="58.42" y="-111.76"/>
 </segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="GND"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="167.64" y1="-86.36" x2="139.7" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="-86.36" x2="139.7" y2="-91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="GND2"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="203.2" y1="-86.36" x2="238.76" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-86.36" x2="238.76" y2="-91.44" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="GND1"/>
+<wire x1="238.76" y1="-91.44" x2="238.76" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-91.44" x2="238.76" y2="-91.44" width="0.1524" layer="91"/>
+<junction x="238.76" y="-91.44"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="238.76" y1="-81.28" x2="238.76" y2="-86.36" width="0.1524" layer="91"/>
+<junction x="238.76" y="-86.36"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -12927,6 +13029,17 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="73.66" y1="-91.44" x2="73.66" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-88.9" x2="58.42" y2="-88.9" width="0.1524" layer="91"/>
 <junction x="58.42" y="-88.9"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="VIN"/>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<wire x1="203.2" y1="-96.52" x2="231.14" y2="-96.52" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="-96.52" x2="231.14" y2="-68.58" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="-68.58" x2="231.14" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-73.66" x2="238.76" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-68.58" x2="231.14" y2="-68.58" width="0.1524" layer="91"/>
+<junction x="231.14" y="-68.58"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -13135,6 +13248,85 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <pinref part="U1" gate="A" pin="ERXCLK/PMD3/RE3"/>
 <wire x1="147.32" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
 <label x="149.86" y="81.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RST_RF" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="RESET(LOW)"/>
+<wire x1="167.64" y1="-91.44" x2="152.4" y2="-91.44" width="0.1524" layer="91"/>
+<label x="152.4" y="-91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="WK_RF" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="WAKE"/>
+<wire x1="167.64" y1="-96.52" x2="152.4" y2="-96.52" width="0.1524" layer="91"/>
+<label x="152.4" y="-96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="C1RX/AETXD1/ERXD3/RF0"/>
+<wire x1="147.32" y1="68.58" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
+<label x="149.86" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="INT_RF" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="INT"/>
+<wire x1="167.64" y1="-101.6" x2="152.4" y2="-101.6" width="0.1524" layer="91"/>
+<label x="152.4" y="-101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="RTCC/AERXD1/ETXD3/IC1/INT1/RD8"/>
+<wire x1="147.32" y1="27.94" x2="167.64" y2="27.94" width="0.1524" layer="91"/>
+<label x="157.48" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDI_RF" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="SDI"/>
+<wire x1="167.64" y1="-106.68" x2="152.4" y2="-106.68" width="0.1524" layer="91"/>
+<label x="152.4" y="-106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="SDA2A/SDI2A/U2ARX/PMA4/CN9/RG7"/>
+<wire x1="0" y1="73.66" x2="-17.78" y2="73.66" width="0.1524" layer="91"/>
+<label x="-17.78" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCK_RF" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="SCK"/>
+<wire x1="167.64" y1="-111.76" x2="152.4" y2="-111.76" width="0.1524" layer="91"/>
+<label x="152.4" y="-111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="SCK2A/U2BTX/*U2ARTS/PMA5/CN8/RG6"/>
+<wire x1="0" y1="76.2" x2="-17.78" y2="76.2" width="0.1524" layer="91"/>
+<label x="-17.78" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CS_RF" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="CS(LOW)"/>
+<wire x1="203.2" y1="-106.68" x2="218.44" y2="-106.68" width="0.1524" layer="91"/>
+<label x="210.82" y="-106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="C1TX/AETXD0/ERXD2/RF1"/>
+<wire x1="147.32" y1="71.12" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
+<label x="149.86" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDO_RF" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="SDO"/>
+<wire x1="203.2" y1="-111.76" x2="218.44" y2="-111.76" width="0.1524" layer="91"/>
+<label x="210.82" y="-111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="SCL2A/SDO2A/U2ATX/PMA3/CN10/RG8"/>
+<wire x1="0" y1="71.12" x2="-17.78" y2="71.12" width="0.1524" layer="91"/>
+<label x="-17.78" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
