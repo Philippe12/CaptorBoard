@@ -91,7 +91,7 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <text x="-3.225" y="-4.15" size="1.27" layer="27">&gt;VALUE</text>
 <smd name="3" x="2.95" y="1.35" dx="1.7" dy="2.1" layer="1" rot="R90"/>
 <smd name="2" x="2.95" y="-1.35" dx="1.7" dy="2.1" layer="1" rot="R90"/>
-<rectangle x1="-2" y1="-2.6" x2="2" y2="2.6" layer="39"/>
+<rectangle x1="-4" y1="-2.6" x2="4" y2="2.6" layer="39"/>
 </package>
 <package name="SHT25">
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
@@ -486,6 +486,24 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <text x="-2.8702" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
 </package>
+<package name="LGA8">
+<smd name="1" x="-1.0033" y="1.875003125" dx="1.0922" dy="0.6096" layer="1"/>
+<smd name="2" x="-1.0033" y="0.62499375" dx="1.0922" dy="0.6096" layer="1"/>
+<smd name="3" x="-1.0033" y="-0.62499375" dx="1.0922" dy="0.6096" layer="1"/>
+<smd name="4" x="-1.0033" y="-1.875003125" dx="1.0922" dy="0.6096" layer="1"/>
+<smd name="5" x="1.0033" y="-1.875003125" dx="1.0922" dy="0.6096" layer="1"/>
+<smd name="6" x="1.0033" y="-0.62499375" dx="1.0922" dy="0.6096" layer="1"/>
+<smd name="7" x="1.0033" y="0.62499375" dx="1.0922" dy="0.6096" layer="1"/>
+<smd name="8" x="1.0033" y="1.875003125" dx="1.0922" dy="0.6096" layer="1"/>
+<wire x1="-1.6256" y1="-2.6416" x2="1.6256" y2="-2.6416" width="0.1524" layer="51"/>
+<wire x1="1.6256" y1="2.6416" x2="-1.6256" y2="2.6416" width="0.1524" layer="51"/>
+<wire x1="-1.4986" y1="-2.4892" x2="1.4986" y2="-2.4892" width="0.1524" layer="25"/>
+<wire x1="1.4986" y1="-2.4892" x2="1.4986" y2="2.4892" width="0.1524" layer="25"/>
+<wire x1="1.4986" y1="2.4892" x2="-1.4986" y2="2.4892" width="0.1524" layer="25"/>
+<wire x1="-1.4986" y1="2.4892" x2="-1.4986" y2="-2.4892" width="0.1524" layer="25"/>
+<text x="-2.8702" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE">
@@ -523,10 +541,10 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<pin name="SDA" x="-12.7" y="2.54" visible="pin" length="middle" swaplevel="1"/>
-<pin name="VSS" x="12.7" y="-2.54" visible="pin" length="middle" swaplevel="2" rot="R180"/>
-<pin name="VDD" x="12.7" y="2.54" visible="pin" length="middle" swaplevel="5" rot="R180"/>
-<pin name="SCL" x="-12.7" y="-2.54" visible="pin" length="middle" swaplevel="6"/>
+<pin name="SDA" x="-12.7" y="2.54" length="middle" swaplevel="1"/>
+<pin name="VSS" x="12.7" y="-2.54" length="middle" swaplevel="2" rot="R180"/>
+<pin name="VDD" x="12.7" y="2.54" length="middle" swaplevel="5" rot="R180"/>
+<pin name="SCL" x="-12.7" y="-2.54" length="middle" swaplevel="6"/>
 <text x="-5.08" y="7.62" size="1.778" layer="94">&gt;NAME</text>
 <text x="-5.08" y="-7.62" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
@@ -602,6 +620,22 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <text x="68.9356" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="67.9958" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
 </symbol>
+<symbol name="MPL115A2">
+<pin name="VDD" x="0" y="0" direction="pwr"/>
+<pin name="CAP" x="0" y="-2.54" direction="pas"/>
+<pin name="GND" x="0" y="-5.08" direction="pwr"/>
+<pin name="*SHDN" x="0" y="-7.62" direction="pas"/>
+<pin name="*RST" x="35.56" y="-7.62" direction="pas" rot="R180"/>
+<pin name="NC" x="35.56" y="-5.08" direction="pas" rot="R180"/>
+<pin name="SDA" x="35.56" y="-2.54" rot="R180"/>
+<pin name="SCL" x="35.56" y="0" direction="in" rot="R180"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="27.94" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="27.94" y1="-12.7" x2="27.94" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="27.94" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<text x="10.5156" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="9.5758" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BAS32L" prefix="CR">
@@ -634,7 +668,7 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <device name="" package="FQ7050B">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="2" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -736,6 +770,31 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <technology name="">
 <attribute name="MANUFACTURER_PART_NUMBER" value="PIC32MX795F512H-80I/PT" constant="no"/>
 <attribute name="VENDOR" value="Microchip" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MPL115A2" prefix="U">
+<gates>
+<gate name="A" symbol="MPL115A2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LGA8">
+<connects>
+<connect gate="A" pin="*RST" pad="5"/>
+<connect gate="A" pin="*SHDN" pad="4"/>
+<connect gate="A" pin="CAP" pad="2"/>
+<connect gate="A" pin="GND" pad="3"/>
+<connect gate="A" pin="NC" pad="6"/>
+<connect gate="A" pin="SCL" pad="8"/>
+<connect gate="A" pin="SDA" pad="7"/>
+<connect gate="A" pin="VDD" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="mpl115a2" constant="no"/>
+<attribute name="VENDOR" value="Freescale" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -12610,6 +12669,12 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <part name="R4" library="resistor" deviceset="R-EU_" device="R1206" value="2.2k"/>
 <part name="R5" library="resistor" deviceset="R-EU_" device="R1206" value="2.2k"/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
+<part name="U3" library="pfo" deviceset="MPL115A2" device=""/>
+<part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND9" library="supply1" deviceset="GND" device=""/>
+<part name="C12" library="resistor" deviceset="C-EU" device="C1206K" value="1uF"/>
+<part name="C13" library="resistor" deviceset="C-EU" device="C1206K" value="100nF"/>
+<part name="C14" library="resistor" deviceset="C-EU" device="C1206K" value="100nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -12652,12 +12717,18 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <instance part="GND7" gate="1" x="208.28" y="0"/>
 <instance part="X1" gate="G$1" x="215.9" y="-40.64"/>
 <instance part="U2" gate="G$1" x="233.68" y="68.58"/>
-<instance part="GND8" gate="1" x="251.46" y="58.42"/>
+<instance part="GND8" gate="1" x="251.46" y="53.34"/>
 <instance part="+3V2" gate="G$1" x="251.46" y="86.36"/>
 <instance part="U1" gate="A" x="0" y="83.82"/>
 <instance part="R4" gate="G$1" x="205.74" y="86.36" rot="R270"/>
-<instance part="R5" gate="G$1" x="218.44" y="86.36" rot="R270"/>
-<instance part="+3V3" gate="G$1" x="213.36" y="104.14"/>
+<instance part="R5" gate="G$1" x="213.36" y="86.36" rot="R270"/>
+<instance part="+3V3" gate="G$1" x="205.74" y="106.68"/>
+<instance part="U3" gate="A" x="266.7" y="121.92" rot="MR0"/>
+<instance part="+3V4" gate="G$1" x="274.32" y="134.62"/>
+<instance part="GND9" gate="1" x="274.32" y="99.06"/>
+<instance part="C12" gate="G$1" x="279.4" y="114.3"/>
+<instance part="C13" gate="G$1" x="289.56" y="121.92"/>
+<instance part="C14" gate="G$1" x="261.62" y="68.58"/>
 </instances>
 <busses>
 </busses>
@@ -12748,6 +12819,26 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="246.38" y1="66.04" x2="251.46" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="66.04" x2="251.46" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="251.46" y1="60.96" x2="251.46" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="63.5" x2="261.62" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="60.96" x2="251.46" y2="60.96" width="0.1524" layer="91"/>
+<junction x="251.46" y="60.96"/>
+</segment>
+<segment>
+<pinref part="U3" gate="A" pin="GND"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="266.7" y1="116.84" x2="274.32" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="116.84" x2="274.32" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="104.14" x2="274.32" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="116.84" x2="289.56" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="104.14" x2="279.4" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="279.4" y1="104.14" x2="274.32" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="109.22" x2="279.4" y2="104.14" width="0.1524" layer="91"/>
+<junction x="279.4" y="104.14"/>
+<junction x="274.32" y="104.14"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -12803,18 +12894,33 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <pinref part="U2" gate="G$1" pin="VDD"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <wire x1="246.38" y1="71.12" x2="251.46" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="71.12" x2="251.46" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="71.12" x2="251.46" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="251.46" y1="76.2" x2="251.46" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="71.12" x2="261.62" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="76.2" x2="251.46" y2="76.2" width="0.1524" layer="91"/>
+<junction x="251.46" y="76.2"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="91.44" x2="205.74" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="96.52" x2="213.36" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="96.52" x2="218.44" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="96.52" x2="218.44" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="96.52" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<wire x1="213.36" y1="101.6" x2="213.36" y2="96.52" width="0.1524" layer="91"/>
-<junction x="213.36" y="96.52"/>
+<wire x1="205.74" y1="104.14" x2="205.74" y2="96.52" width="0.1524" layer="91"/>
+<junction x="205.74" y="96.52"/>
+</segment>
+<segment>
+<pinref part="U3" gate="A" pin="VDD"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="266.7" y1="121.92" x2="274.32" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="121.92" x2="274.32" y2="127" width="0.1524" layer="91"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="274.32" y1="127" x2="274.32" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="124.46" x2="289.56" y2="127" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="127" x2="274.32" y2="127" width="0.1524" layer="91"/>
+<junction x="274.32" y="127"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -12947,10 +13053,14 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="185.42" y1="50.8" x2="205.74" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="50.8" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="SDA"/>
-<wire x1="220.98" y1="71.12" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="71.12" x2="218.44" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="71.12" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="71.12" x2="205.74" y2="81.28" width="0.1524" layer="91"/>
 <junction x="205.74" y="71.12"/>
 <pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="U3" gate="A" pin="SDA"/>
+<wire x1="218.44" y1="71.12" x2="218.44" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="119.38" x2="231.14" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -12961,11 +13071,45 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <wire x1="187.96" y1="48.26" x2="208.28" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="48.26" x2="208.28" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="SCL"/>
-<wire x1="208.28" y1="66.04" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="66.04" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="66.04" x2="218.44" y2="81.28" width="0.1524" layer="91"/>
-<junction x="218.44" y="66.04"/>
+<wire x1="208.28" y1="66.04" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="66.04" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="66.04" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="66.04" x2="213.36" y2="81.28" width="0.1524" layer="91"/>
+<junction x="213.36" y="66.04"/>
 <pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="U3" gate="A" pin="SCL"/>
+<wire x1="215.9" y1="66.04" x2="215.9" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="121.92" x2="231.14" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="U3" gate="A" pin="CAP"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="119.38" x2="279.4" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="119.38" x2="279.4" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="ERXERR/PMD4/RE4"/>
+<wire x1="147.32" y1="83.82" x2="154.94" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="83.82" x2="154.94" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="*RST"/>
+<wire x1="154.94" y1="114.3" x2="231.14" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="ERXCLK/PMD3/RE3"/>
+<wire x1="147.32" y1="81.28" x2="157.48" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="81.28" x2="157.48" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="109.22" x2="228.6" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="109.22" x2="228.6" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="106.68" x2="271.78" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="106.68" x2="271.78" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="*SHDN"/>
+<wire x1="271.78" y1="114.3" x2="266.7" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
