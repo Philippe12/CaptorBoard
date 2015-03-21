@@ -349,7 +349,7 @@ UsedLibrary="lib/pfo.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="0 23 1279 719"
+Loc="320 218 919 617"
 State=2
 Number=0
 
