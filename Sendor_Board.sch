@@ -529,6 +529,44 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <text x="2.54" y="-2.54" size="1.27" layer="25">MRF24J40MA</text>
 <text x="2.032" y="13.97" size="1.27" layer="25">1</text>
 </package>
+<package name="SOT230P700X180-4N">
+<smd name="1" x="-3.2004" y="2.3114" dx="1.6256" dy="0.889" layer="1"/>
+<smd name="2" x="-3.2004" y="0" dx="1.6256" dy="0.889" layer="1"/>
+<smd name="3" x="-3.2004" y="-2.3114" dx="1.6256" dy="0.889" layer="1"/>
+<smd name="4" x="3.2004" y="0" dx="1.6256" dy="3.175" layer="1"/>
+<wire x1="-1.8542" y1="1.8796" x2="-1.8542" y2="2.7432" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="2.7432" x2="-3.6576" y2="2.7432" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="2.7432" x2="-3.6576" y2="1.8796" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="1.8796" x2="-1.8542" y2="1.8796" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-0.4318" x2="-1.8542" y2="0.4318" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="0.4318" x2="-3.6576" y2="0.4318" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="0.4318" x2="-3.6576" y2="-0.4318" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="-0.4318" x2="-1.8542" y2="-0.4318" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-2.7432" x2="-1.8542" y2="-1.8796" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-1.8796" x2="-3.6576" y2="-1.8796" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="-1.8796" x2="-3.6576" y2="-2.7432" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="-2.7432" x2="-1.8542" y2="-2.7432" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="1.5748" x2="1.8542" y2="-1.5748" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="-1.5748" x2="3.6576" y2="-1.5748" width="0.1524" layer="51"/>
+<wire x1="3.6576" y1="-1.5748" x2="3.6576" y2="1.6002" width="0.1524" layer="51"/>
+<wire x1="3.6576" y1="1.6002" x2="1.8542" y2="1.5748" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-3.3528" x2="1.8542" y2="-3.3528" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="-3.3528" x2="1.8542" y2="3.3528" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="3.3528" x2="-1.8542" y2="3.3528" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="3.3528" x2="-1.8542" y2="-3.3528" width="0.1524" layer="51"/>
+<text x="-4.0132" y="2.3876" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<wire x1="4.2672" y1="-3.6068" x2="-4.2672" y2="-3.6068" width="0.1524" layer="39"/>
+<wire x1="-4.2672" y1="-3.6068" x2="-4.2672" y2="3.6068" width="0.1524" layer="39"/>
+<wire x1="-4.2672" y1="3.6068" x2="4.2672" y2="3.6068" width="0.1524" layer="39"/>
+<wire x1="4.2672" y1="3.6068" x2="4.2672" y2="-3.6068" width="0.1524" layer="39"/>
+<wire x1="-1.8542" y1="-3.3528" x2="1.8542" y2="-3.3528" width="0.1524" layer="21"/>
+<wire x1="1.8542" y1="-3.3528" x2="1.8542" y2="3.3528" width="0.1524" layer="21"/>
+<wire x1="1.8542" y1="3.3528" x2="-1.8542" y2="3.3528" width="0.1524" layer="21"/>
+<wire x1="-1.8542" y1="3.3528" x2="-1.8542" y2="-3.3528" width="0.1524" layer="21"/>
+<text x="-4.0132" y="2.3876" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-4.8006" y="3.556" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.715" y="-5.8674" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE">
@@ -683,6 +721,18 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <pin name="VIN" x="10.16" y="-5.08" length="middle" rot="R180"/>
 <pin name="GND1" x="10.16" y="0" length="middle" rot="R180"/>
 <pin name="GND2" x="10.16" y="5.08" length="middle" rot="R180"/>
+</symbol>
+<symbol name="TC1262-3.3VDB">
+<pin name="VIN" x="-22.86" y="0" length="middle" direction="in"/>
+<pin name="GND_(TAB)" x="-22.86" y="-5.08" length="middle" direction="pas"/>
+<pin name="GND_(TAB)_2" x="-22.86" y="-7.62" length="middle" direction="pas"/>
+<pin name="VOUT" x="22.86" y="-5.08" length="middle" direction="out" rot="R180"/>
+<wire x1="-17.78" y1="5.08" x2="-17.78" y2="-12.7" width="0.4064" layer="94"/>
+<wire x1="-17.78" y1="-12.7" x2="17.78" y2="-12.7" width="0.4064" layer="94"/>
+<wire x1="17.78" y1="-12.7" x2="17.78" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="17.78" y1="5.08" x2="-17.78" y2="5.08" width="0.4064" layer="94"/>
+<text x="-4.5974" y="6.2992" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-5.588" y="-15.3416" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -869,6 +919,31 @@ Source: Epson Toyocom FC-12M.pdf</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TC1262-3.3VDB" prefix="U">
+<description>IC, 500mA Fixed Output CMOS LDO,3.3V,SOT-223, 3-lead</description>
+<gates>
+<gate name="A" symbol="TC1262-3.3VDB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT230P700X180-4N">
+<connects>
+<connect gate="A" pin="GND_(TAB)" pad="2"/>
+<connect gate="A" pin="GND_(TAB)_2" pad="4"/>
+<connect gate="A" pin="VIN" pad="1"/>
+<connect gate="A" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="TC1262-3.3VDB" constant="no"/>
+<attribute name="OC_FARNELL" value="1852183" constant="no"/>
+<attribute name="OC_NEWARK" value="53R0370" constant="no"/>
+<attribute name="PACKAGE" value="SOT-223-3" constant="no"/>
+<attribute name="SUPPLIER" value="Microchip" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -13359,6 +13434,14 @@ DIN A3, landscape with location and doc. field</description>
 <part name="D2" library="diode" deviceset="1N4004" device=""/>
 <part name="X2" library="con-phoenix-254" deviceset="MPT2" device=""/>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
+<part name="U5" library="pfo" deviceset="TC1262-3.3VDB" device=""/>
+<part name="P+3" library="supply1" deviceset="+5V" device=""/>
+<part name="GND15" library="supply1" deviceset="GND" device=""/>
+<part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
+<part name="C16" library="resistor" deviceset="CPOL-EU" device="A/3216-18W" value="1uF">
+<attribute name="TYPE" value="TPSA106K010R0900"/>
+</part>
+<part name="GND16" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13438,6 +13521,14 @@ temperature sensor</text>
 <instance part="X2" gate="-1" x="144.78" y="-83.82"/>
 <instance part="X2" gate="-2" x="144.78" y="-88.9"/>
 <instance part="FRAME1" gate="G$1" x="-111.76" y="-142.24"/>
+<instance part="U5" gate="A" x="208.28" y="-33.02"/>
+<instance part="P+3" gate="1" x="177.8" y="-25.4"/>
+<instance part="GND15" gate="1" x="177.8" y="-48.26"/>
+<instance part="+3V6" gate="G$1" x="238.76" y="-27.94"/>
+<instance part="C16" gate="G$1" x="238.76" y="-43.18">
+<attribute name="TYPE" x="236.22" y="-43.18" size="1.778" layer="96"/>
+</instance>
+<instance part="GND16" gate="1" x="238.76" y="-53.34"/>
 </instances>
 <busses>
 </busses>
@@ -13578,6 +13669,21 @@ temperature sensor</text>
 <wire x1="73.66" y1="-124.46" x2="68.58" y2="-124.46" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="-124.46" x2="68.58" y2="-127" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U5" gate="A" pin="GND_(TAB)"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="185.42" y1="-38.1" x2="177.8" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-38.1" x2="177.8" y2="-40.64" width="0.1524" layer="91"/>
+<pinref part="U5" gate="A" pin="GND_(TAB)_2"/>
+<wire x1="177.8" y1="-40.64" x2="177.8" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-40.64" x2="177.8" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="177.8" y="-40.64"/>
+</segment>
+<segment>
+<pinref part="C16" gate="G$1" pin="-"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+<wire x1="238.76" y1="-48.26" x2="238.76" y2="-50.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -13674,6 +13780,15 @@ temperature sensor</text>
 <wire x1="104.14" y1="-20.32" x2="104.14" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="-15.24" x2="96.52" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="96.52" y="-15.24"/>
+</segment>
+<segment>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+<wire x1="238.76" y1="-30.48" x2="238.76" y2="-38.1" width="0.1524" layer="91"/>
+<pinref part="U5" gate="A" pin="VOUT"/>
+<wire x1="238.76" y1="-38.1" x2="231.14" y2="-38.1" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="+"/>
+<wire x1="238.76" y1="-40.64" x2="238.76" y2="-38.1" width="0.1524" layer="91"/>
+<junction x="238.76" y="-38.1"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -13794,6 +13909,12 @@ temperature sensor</text>
 <pinref part="X1" gate="G$1" pin="1"/>
 <wire x1="-93.98" y1="5.08" x2="-93.98" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="-93.98" y1="-5.08" x2="-83.82" y2="-5.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U5" gate="A" pin="VIN"/>
+<pinref part="P+3" gate="1" pin="+5V"/>
+<wire x1="185.42" y1="-33.02" x2="177.8" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-33.02" x2="177.8" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USBID" class="0">
