@@ -17913,8 +17913,8 @@ temperature sensor</text>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="ERXERR/PMD4/RE4"/>
-<wire x1="147.32" y1="83.82" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
-<label x="149.86" y="83.82" size="1.778" layer="95"/>
+<wire x1="147.32" y1="83.82" x2="167.64" y2="83.82" width="0.1524" layer="91"/>
+<label x="154.94" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SHD_PRES" class="0">
@@ -17925,8 +17925,8 @@ temperature sensor</text>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="ERXCLK/PMD3/RE3"/>
-<wire x1="147.32" y1="81.28" x2="165.1" y2="81.28" width="0.1524" layer="91"/>
-<label x="149.86" y="81.28" size="1.778" layer="95"/>
+<wire x1="147.32" y1="81.28" x2="167.64" y2="81.28" width="0.1524" layer="91"/>
+<label x="154.94" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RST_RF" class="0">
@@ -17944,8 +17944,8 @@ temperature sensor</text>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="C1RX/AETXD1/ERXD3/RF0"/>
-<wire x1="147.32" y1="68.58" x2="165.1" y2="68.58" width="0.1524" layer="91"/>
-<label x="149.86" y="68.58" size="1.778" layer="95"/>
+<wire x1="147.32" y1="68.58" x2="167.64" y2="68.58" width="0.1524" layer="91"/>
+<label x="160.02" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="INT_RF" class="0">
@@ -17992,8 +17992,8 @@ temperature sensor</text>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="C1TX/AETXD0/ERXD2/RF1"/>
-<wire x1="147.32" y1="71.12" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
-<label x="149.86" y="71.12" size="1.778" layer="95"/>
+<wire x1="147.32" y1="71.12" x2="167.64" y2="71.12" width="0.1524" layer="91"/>
+<label x="160.02" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDO_RF" class="0">
@@ -18010,26 +18010,26 @@ temperature sensor</text>
 </net>
 <net name="PILOT_1" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="ETXEN/PMD5/RE5"/>
-<wire x1="0" y1="83.82" x2="-17.78" y2="83.82" width="0.1524" layer="91"/>
-<label x="-17.78" y="83.82" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="53.34" y1="-91.44" x2="66.04" y2="-91.44" width="0.1524" layer="91"/>
 <label x="53.34" y="-91.44" size="1.778" layer="95"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="U1" gate="A" pin="EMDIO/SCK1A/U1BTX/*U1ARTS/OC2/RD1"/>
+<wire x1="147.32" y1="45.72" x2="167.64" y2="45.72" width="0.1524" layer="91"/>
+<label x="157.48" y="45.72" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PILOT_2" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="ETXD0/PMD6/RE6"/>
-<wire x1="0" y1="81.28" x2="-17.78" y2="81.28" width="0.1524" layer="91"/>
-<label x="-17.78" y="81.28" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="53.34" y1="-101.6" x2="66.04" y2="-101.6" width="0.1524" layer="91"/>
 <label x="53.34" y="-101.6" size="1.778" layer="95"/>
 <pinref part="R7" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="SDA1A/SDI1A/U1ARX/OC3/RD2"/>
+<wire x1="147.32" y1="48.26" x2="167.64" y2="48.26" width="0.1524" layer="91"/>
+<label x="157.48" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$8" class="0">
