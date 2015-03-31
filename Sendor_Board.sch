@@ -618,8 +618,8 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <pin name="VSS" x="12.7" y="-2.54" visible="pin" length="middle" swaplevel="2" rot="R180"/>
 <pin name="VDD" x="12.7" y="2.54" visible="pin" length="middle" swaplevel="5" rot="R180"/>
 <pin name="SCL" x="-12.7" y="-2.54" visible="pin" length="middle" swaplevel="6"/>
-<text x="-5.08" y="7.62" size="1.778" layer="94">&gt;NAME</text>
-<text x="-5.08" y="-7.62" size="1.778" layer="94">&gt;VALUE</text>
+<text x="-7.62" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="PIC32MX795F512H-80I/PT">
 <pin name="ETXEN/PMD5/RE5" x="0" y="0"/>
@@ -690,8 +690,8 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="7.62" y1="-83.82" x2="139.7" y2="-83.82" width="0.1524" layer="94"/>
 <wire x1="139.7" y1="-83.82" x2="139.7" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="139.7" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
-<text x="68.9356" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
-<text x="67.9958" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
+<text x="7.9756" y="6.5786" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="9.5758" y="-87.4014" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
 </symbol>
 <symbol name="MPL115A2">
 <pin name="VDD" x="0" y="0" direction="pwr"/>
@@ -706,8 +706,8 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="7.62" y1="-12.7" x2="27.94" y2="-12.7" width="0.1524" layer="94"/>
 <wire x1="27.94" y1="-12.7" x2="27.94" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="27.94" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
-<text x="10.5156" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
-<text x="9.5758" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
+<text x="10.5156" y="6.5786" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="9.5758" y="-16.2814" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
 </symbol>
 <symbol name="MRF24J40MA">
 <wire x1="5.08" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
@@ -719,7 +719,7 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<text x="-12.7" y="-25.4" size="1.27" layer="94">MRF24J40MA</text>
+<text x="-20.32" y="10.16" size="1.9304" layer="95">&gt;NAME</text>
 <pin name="GND" x="-25.4" y="5.08" length="middle"/>
 <pin name="RESET(LOW)" x="-25.4" y="0" length="middle"/>
 <pin name="WAKE" x="-25.4" y="-5.08" length="middle"/>
@@ -731,6 +731,7 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <pin name="VIN" x="10.16" y="-5.08" length="middle" rot="R180"/>
 <pin name="GND1" x="10.16" y="0" length="middle" rot="R180"/>
 <pin name="GND2" x="10.16" y="5.08" length="middle" rot="R180"/>
+<text x="-20.32" y="-25.4" size="1.9304" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="TC1262-3.3VDB">
 <pin name="VIN" x="-22.86" y="0" length="middle" direction="in"/>
@@ -741,8 +742,8 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <wire x1="-17.78" y1="-12.7" x2="17.78" y2="-12.7" width="0.4064" layer="94"/>
 <wire x1="17.78" y1="-12.7" x2="17.78" y2="5.08" width="0.4064" layer="94"/>
 <wire x1="17.78" y1="5.08" x2="-17.78" y2="5.08" width="0.4064" layer="94"/>
-<text x="-4.5974" y="6.2992" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-5.588" y="-15.3416" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-17.2974" y="6.2992" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-15.748" y="-15.3416" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
 <symbol name="VTX-214-003-105">
 <wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
@@ -753,8 +754,8 @@ Source: Epson Toyocom FC-12M.pdf</description>
 <pin name="AC2" x="-15.24" y="0" visible="pin" length="middle"/>
 <pin name="DC_OUT" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
 <pin name="GND" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
-<text x="-5.08" y="7.62" size="1.778" layer="94">&gt;NAME</text>
-<text x="-5.08" y="-5.08" size="1.778" layer="94">&gt;VALUE</text>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
