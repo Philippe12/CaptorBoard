@@ -17339,7 +17339,7 @@ Source: www.kingbright.com</description>
 <part name="OK2" library="optocoupler" deviceset="MOC30*" device="" technology="42M"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="F1" library="fuse" deviceset="SH22,5" device=""/>
+<part name="F1" library="fuse" deviceset="SH22,5" device="" value="0031.8201"/>
 <part name="D1" library="diode" deviceset="1N4004" device=""/>
 <part name="D2" library="diode" deviceset="1N4004" device=""/>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
@@ -17355,21 +17355,21 @@ Source: www.kingbright.com</description>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="T1" library="zetex" deviceset="PMOSSOT23" device="" value="IRLM6402TRPBF"/>
 <part name="D3" library="diode" deviceset="DIODE-" device="DO214AC" value="B340A-E3/61T"/>
-<part name="PROG" library="con-lstb" deviceset="MA06-1" device=""/>
+<part name="PROG" library="con-lstb" deviceset="MA06-1" device="" value="826926-6"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
-<part name="CONF" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="CONF-1°C" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="POWER" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="ECO" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="CONF-2°C" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="CONF" library="led" deviceset="LED" device="CHIP-LED0805" value="KPT-2012YC"/>
+<part name="CONF-1°C" library="led" deviceset="LED" device="CHIP-LED0805" value="KPT-2012YC"/>
+<part name="POWER" library="led" deviceset="LED" device="CHIP-LED0805" value="KPT-2012YC"/>
+<part name="ECO" library="led" deviceset="LED" device="CHIP-LED0805" value="KPT-2012YC"/>
+<part name="CONF-2°C" library="led" deviceset="LED" device="CHIP-LED0805" value="KPT-2012YC"/>
 <part name="R8" library="resistor" deviceset="R-EU_" device="R1206" value="1K"/>
 <part name="R9" library="resistor" deviceset="R-EU_" device="R1206" value="1K"/>
 <part name="R10" library="resistor" deviceset="R-EU_" device="R1206" value="1K"/>
 <part name="R11" library="resistor" deviceset="R-EU_" device="R1206" value="1K"/>
 <part name="R12" library="resistor" deviceset="R-EU_" device="R1206" value="1K"/>
-<part name="S1" library="switch-omron" deviceset="31-XX" device=""/>
+<part name="S1" library="switch-omron" deviceset="31-XX" device="" value="B3F-3100"/>
 <part name="R13" library="resistor" deviceset="R-EU_" device="R1206" value="1k"/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
 <part name="X2" library="con-phoenix-508" deviceset="MSTBA4" device=""/>
@@ -17529,6 +17529,9 @@ temperature sensor</text>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="86.36" x2="190.5" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="86.36" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
+<junction x="220.98" y="86.36"/>
+<junction x="210.82" y="86.36"/>
+<junction x="200.66" y="86.36"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="-"/>
@@ -17691,6 +17694,9 @@ temperature sensor</text>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="99.06" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="99.06" x2="190.5" y2="96.52" width="0.1524" layer="91"/>
+<junction x="200.66" y="99.06"/>
+<junction x="210.82" y="99.06"/>
+<junction x="220.98" y="99.06"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -17869,6 +17875,7 @@ temperature sensor</text>
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="27.94" x2="205.74" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="OSC2/CLKO/RC15"/>
+<junction x="198.12" y="27.94"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -17881,6 +17888,7 @@ temperature sensor</text>
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="12.7" x2="205.74" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="OSC1/CLKI/RC12"/>
+<junction x="198.12" y="12.7"/>
 </segment>
 </net>
 <net name="D+" class="0">
@@ -17921,6 +17929,7 @@ temperature sensor</text>
 <wire x1="162.56" y1="-38.1" x2="149.86" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-38.1" x2="149.86" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="177.8" y="-33.02"/>
+<junction x="162.56" y="-33.02"/>
 </segment>
 </net>
 <net name="USBID" class="0">
