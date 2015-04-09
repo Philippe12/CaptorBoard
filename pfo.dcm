@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IRLM6402TRPBF
+D IRLM6402TRPBF
+K IOR P-Channel MOSFET
+$ENDCMP
+#
+#End Doc Library
