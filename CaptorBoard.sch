@@ -207,19 +207,19 @@ Text Label 3600 1850 0    60   ~ 0
 SDI_RF
 Text Label 3600 1950 0    60   ~ 0
 SDO_RF
-Text Label 3600 2450 0    60   ~ 0
+Text Label 3600 2750 0    60   ~ 0
 CONF-1°C
 Text Label 3600 2550 0    60   ~ 0
 ECO
-Text Label 3600 2650 0    60   ~ 0
+Text Label 3600 3050 0    60   ~ 0
 CONF
-Text Label 3600 2750 0    60   ~ 0
+Text Label 3600 2450 0    60   ~ 0
 POWER
 Text Label 3600 2850 0    60   ~ 0
 PGC
 Text Label 3600 2950 0    60   ~ 0
 PGD
-Text Label 3600 3050 0    60   ~ 0
+Text Label 3600 2650 0    60   ~ 0
 CONF-2°C
 NoConn ~ 4100 1450
 NoConn ~ 4100 1550
@@ -1196,19 +1196,19 @@ Wire Wire Line
 Wire Wire Line
 	4100 1950 3550 1950
 Wire Wire Line
-	4100 2450 3600 2450
+	4100 2750 3600 2750
 Wire Wire Line
 	4100 2550 3600 2550
 Wire Wire Line
-	4100 2650 3600 2650
+	4100 3050 3600 3050
 Wire Wire Line
-	4100 2750 3600 2750
+	4100 2450 3600 2450
 Wire Wire Line
 	4100 2850 3600 2850
 Wire Wire Line
 	4100 2950 3600 2950
 Wire Wire Line
-	4100 3050 3600 3050
+	4100 2650 3600 2650
 Wire Wire Line
 	10600 2150 11800 2150
 Wire Wire Line
@@ -1607,7 +1607,7 @@ U 1 1 5533F0E1
 P 14150 6150
 F 0 "P3" H 14150 6400 50  0000 C CNN
 F 1 "EXT" V 14250 6150 50  0000 C CNN
-F 2 "" H 14150 6150 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 14150 6150 60  0001 C CNN
 F 3 "" H 14150 6150 60  0000 C CNN
 	1    14150 6150
 	1    0    0    -1  
