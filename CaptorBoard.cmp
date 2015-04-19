@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-05 BZR 5577)-product   date = Jeudi 09 avril 2015 17:03:43
+Cmp-Mod V01 Created by Cvpcb (2015-04-05 BZR 5577)-product   date = Dimanche 19 avril 2015 14:32:14
 
 BeginCmp
 TimeStamp = /5524D72A;
@@ -116,7 +116,7 @@ BeginCmp
 TimeStamp = /552525DB;
 Reference = CON1;
 ValeurCmp = MINI-USB-SHELD-MC32598;
-IdModule  = Connect:USB_Mini-B;
+IdModule  = pfo:USB_Mini-B;
 EndCmp
 
 BeginCmp
@@ -137,35 +137,35 @@ BeginCmp
 TimeStamp = /552596B4;
 Reference = D3;
 ValeurCmp = POWER;
-IdModule  = LEDs:LED-1206;
+IdModule  = pfo:LED-1206-Guide;
 EndCmp
 
 BeginCmp
 TimeStamp = /55259738;
 Reference = D4;
 ValeurCmp = CONF;
-IdModule  = LEDs:LED-1206;
+IdModule  = pfo:LED-1206-Guide;
 EndCmp
 
 BeginCmp
 TimeStamp = /5525979F;
 Reference = D5;
 ValeurCmp = ECO;
-IdModule  = LEDs:LED-1206;
+IdModule  = pfo:LED-1206-Guide;
 EndCmp
 
 BeginCmp
 TimeStamp = /55259801;
 Reference = D6;
 ValeurCmp = CONF-1°C;
-IdModule  = LEDs:LED-1206;
+IdModule  = pfo:LED-1206-Guide;
 EndCmp
 
 BeginCmp
 TimeStamp = /55259860;
 Reference = D7;
 ValeurCmp = CONF-2°C;
-IdModule  = LEDs:LED-1206;
+IdModule  = pfo:LED-1206-Guide;
 EndCmp
 
 BeginCmp
@@ -311,7 +311,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5525B6CE;
 Reference = SW1;
-ValeurCmp = SW_PUSH;
+ValeurCmp = CST06S08H;
 IdModule  = pfo:CST06S;
 EndCmp
 
