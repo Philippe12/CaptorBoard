@@ -1025,9 +1025,9 @@ F 3 "DOCUMENTATION" H 10000 10000 50  0001 C CNN
 	1    9850 9700
 	1    0    0    -1  
 $EndComp
-Text Label 8400 9650 0    60   ~ 0
-Phase_F
 Text Label 8400 9750 0    60   ~ 0
+Phase_F
+Text Label 8400 9650 0    60   ~ 0
 Neutre
 Text Label 10850 9650 0    60   ~ 0
 5V_SEC
@@ -1542,9 +1542,9 @@ Wire Wire Line
 Wire Wire Line
 	9150 8600 7900 8600
 Wire Wire Line
-	9100 9650 8400 9650
-Wire Wire Line
 	9100 9750 8400 9750
+Wire Wire Line
+	9100 9650 8400 9650
 Wire Wire Line
 	10600 9650 11150 9650
 Wire Wire Line
