@@ -1026,7 +1026,7 @@ F 3 "DOCUMENTATION" H 10000 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 8400 9650 0    60   ~ 0
-Phase
+Phase_F
 Text Label 8400 9750 0    60   ~ 0
 Neutre
 Text Label 10850 9650 0    60   ~ 0
@@ -1100,12 +1100,12 @@ $EndComp
 $Comp
 L F_Small F1
 U 1 1 55263FC2
-P 13250 7650
-F 0 "F1" H 13210 7710 50  0000 L CNN
-F 1 "F_Small" H 13130 7590 50  0000 L CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" H 13250 7650 60  0001 C CNN
-F 3 "" H 13250 7650 60  0000 C CNN
-	1    13250 7650
+P 15200 6650
+F 0 "F1" H 15160 6710 50  0000 L CNN
+F 1 "F_Small" H 15080 6590 50  0000 L CNN
+F 2 "Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm" H 15200 6650 60  0001 C CNN
+F 3 "" H 15200 6650 60  0000 C CNN
+	1    15200 6650
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1568,7 +1568,7 @@ Wire Wire Line
 Wire Wire Line
 	13150 9150 12600 9150
 Wire Wire Line
-	13350 7650 14650 7650
+	15300 6650 15750 6650
 Wire Wire Line
 	14650 7650 14650 9150
 Wire Wire Line
@@ -1590,10 +1590,10 @@ Wire Wire Line
 Wire Wire Line
 	14400 9350 15100 9350
 Wire Wire Line
-	13150 7650 12650 7650
+	15100 6650 14600 6650
 Text Notes 12650 7350 0    197  ~ 39
 Electric heater pilot
-Text Label 12650 7650 0    60   ~ 0
+Text Label 14600 6650 0    60   ~ 0
 Phase
 Text Label 12650 8000 0    60   ~ 0
 PILOT_1
@@ -1663,4 +1663,10 @@ Wire Wire Line
 	10600 1850 11300 1850
 Text Label 11000 1850 0    60   ~ 0
 RST_RF
+Text Label 15400 6650 0    60   ~ 0
+Phase_F
+Wire Wire Line
+	14650 7650 12700 7650
+Text Label 12700 7650 0    60   ~ 0
+Phase_F
 $EndSCHEMATC
