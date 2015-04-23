@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-05 BZR 5577)-product   date = Dimanche 19 avril 2015 14:32:14
+Cmp-Mod V01 Created by Cvpcb (2015-04-05 BZR 5577)-product   date = Jeudi 23 avril 2015 10:21:30
 
 BeginCmp
 TimeStamp = /5524D72A;
@@ -211,6 +211,13 @@ IdModule  = Connect:bornier4;
 EndCmp
 
 BeginCmp
+TimeStamp = /5533F0E1;
+Reference = P3;
+ValeurCmp = EXT;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
 TimeStamp = /5525F6DB;
 Reference = Q1;
 ValeurCmp = IRLM6402TRPBF;
@@ -333,7 +340,7 @@ BeginCmp
 TimeStamp = /552580F6;
 Reference = U3;
 ValeurCmp = HTU21;
-IdModule  = Housings_DFN_QFN:DFN-6-1EP_3x3mm_Pitch0.95mm;
+IdModule  = pfo:HTU21;
 EndCmp
 
 BeginCmp
@@ -347,7 +354,7 @@ BeginCmp
 TimeStamp = /55262406;
 Reference = U5;
 ValeurCmp = VTX-214-003-105;
-IdModule  = pfo:VTX-214-003-105;
+IdModule  = pfo:VTX-214-005-x;
 EndCmp
 
 BeginCmp
