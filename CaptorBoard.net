@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/philippefouquet/Documents/Developpement/Electronique/CaptorBoard/CaptorBoard.sch)
-    (date "Dimanche 26 avril 2015 14:45:45")
+    (date "Lundi 04 mai 2015 09:33:38")
     (tool "Eeschema (2015-04-22 BZR 5621)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -195,31 +195,31 @@
       (tstamp 55258165))
     (comp (ref D3)
       (value POWER)
-      (footprint pfo:LED-1206-Guide)
+      (footprint LEDs:LED-3MM)
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 552596B4))
     (comp (ref D4)
       (value CONF)
-      (footprint pfo:LED-1206-Guide)
+      (footprint LEDs:LED-3MM)
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 55259738))
     (comp (ref D5)
       (value ECO)
-      (footprint pfo:LED-1206-Guide)
+      (footprint LEDs:LED-3MM)
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 5525979F))
     (comp (ref D6)
       (value CONF-1°C)
-      (footprint pfo:LED-1206-Guide)
+      (footprint LEDs:LED-3MM)
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 55259801))
     (comp (ref D7)
       (value CONF-2°C)
-      (footprint pfo:LED-1206-Guide)
+      (footprint LEDs:LED-3MM)
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 55259860))
@@ -297,7 +297,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5525F8ED))
     (comp (ref U5)
-      (value VTX-214-003-105)
+      (value VTX-214-005-005)
       (footprint pfo:VTX-214-005-x)
       (datasheet DOCUMENTATION)
       (libsource (lib pfo) (part VTX-214-003-105))
@@ -352,110 +352,6 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5533F0E1)))
   (libparts
-    (libpart (lib device) (part C)
-      (description "Unpolarized capacitor")
-      (footprints
-        (fp C?)
-        (fp C_????_*)
-        (fp C_????)
-        (fp SMD*_c)
-        (fp Capacitor*))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part CP)
-      (description "Polarised capacitor")
-      (footprints
-        (fp CP*)
-        (fp Elko*)
-        (fp TantalC*)
-        (fp C*elec)
-        (fp c_elec*)
-        (fp SMD*_Pol))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) CP))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part D_Small)
-      (description Diode)
-      (footprints
-        (fp Diode_*)
-        (fp D-Pak_TO252AA)
-        (fp *SingleDiode)
-        (fp *SingleDiode*)
-        (fp *_Diode_*))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) D_Small))
-      (pins
-        (pin (num 1) (name A) (type passive))
-        (pin (num 2) (name C) (type passive))))
-    (libpart (lib device) (part F_Small)
-      (description Fuse)
-      (footprints
-        (fp CP*)
-        (fp SM*))
-      (fields
-        (field (name Reference) F)
-        (field (name Value) F_Small))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part LED)
-      (footprints
-        (fp LED-3MM)
-        (fp LED-5MM)
-        (fp LED-10MM)
-        (fp LED-0603)
-        (fp LED-0805)
-        (fp LED-1206)
-        (fp LEDV))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) LED))
-      (pins
-        (pin (num 1) (name A) (type passive))
-        (pin (num 2) (name K) (type passive))))
-    (libpart (lib device) (part Crystal_Small)
-      (description "Two pin crystal")
-      (footprints
-        (fp Crystal_))
-      (fields
-        (field (name Reference) Y)
-        (field (name Value) Crystal_Small))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib device) (part D)
-      (description Diode)
-      (footprints
-        (fp Diode_*)
-        (fp D-Pak_TO252AA)
-        (fp *SingleDiode)
-        (fp *_Diode_*)
-        (fp *SingleDiode*))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) D))
-      (pins
-        (pin (num 1) (name A) (type passive))
-        (pin (num 2) (name K) (type passive))))
-    (libpart (lib device) (part R)
-      (description Resistor)
-      (footprints
-        (fp R_*)
-        (fp Resistor_*))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib device) (part SW_PUSH)
       (description "Push Button")
       (fields
@@ -494,6 +390,110 @@
         (pin (num 4) (name P4) (type passive))
         (pin (num 5) (name P5) (type passive))
         (pin (num 6) (name P6) (type passive))))
+    (libpart (lib device) (part F_Small)
+      (description Fuse)
+      (footprints
+        (fp CP*)
+        (fp SM*))
+      (fields
+        (field (name Reference) F)
+        (field (name Value) F_Small))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib device) (part CP)
+      (description "Polarised capacitor")
+      (footprints
+        (fp CP*)
+        (fp Elko*)
+        (fp TantalC*)
+        (fp C*elec)
+        (fp c_elec*)
+        (fp SMD*_Pol))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CP))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part C)
+      (description "Unpolarized capacitor")
+      (footprints
+        (fp C?)
+        (fp C_????_*)
+        (fp C_????)
+        (fp SMD*_c)
+        (fp Capacitor*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part Crystal_Small)
+      (description "Two pin crystal")
+      (footprints
+        (fp Crystal_))
+      (fields
+        (field (name Reference) Y)
+        (field (name Value) Crystal_Small))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part D)
+      (description Diode)
+      (footprints
+        (fp Diode_*)
+        (fp D-Pak_TO252AA)
+        (fp *SingleDiode)
+        (fp *_Diode_*)
+        (fp *SingleDiode*))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) D))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib device) (part D_Small)
+      (description Diode)
+      (footprints
+        (fp Diode_*)
+        (fp D-Pak_TO252AA)
+        (fp *SingleDiode)
+        (fp *SingleDiode*)
+        (fp *_Diode_*))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) D_Small))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name C) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistor)
+      (footprints
+        (fp R_*)
+        (fp Resistor_*))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib conn) (part USB-MINI-B)
       (aliases
         (alias USB-MICRO-B))
@@ -534,29 +534,6 @@
         (pin (num 2) (name ~) (type passive))
         (pin (num 4) (name ~) (type passive))
         (pin (num 6) (name ~) (type passive))))
-    (libpart (lib pfo) (part HTU21)
-      (fields
-        (field (name Reference) U)
-        (field (name Value) HTU21)
-        (field (name Footprint) MODULE)
-        (field (name Datasheet) DOCUMENTATION))
-      (pins
-        (pin (num 1) (name SDA) (type openCol))
-        (pin (num 2) (name GND) (type power_in))
-        (pin (num 5) (name VDD) (type power_in))
-        (pin (num 6) (name SCK) (type openCol))))
-    (libpart (lib pfo) (part IRLM6402TRPBF)
-      (description IRLM6402TRPBF)
-      (footprints
-        (fp SOT*23))
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) IRLM6402TRPBF)
-        (field (name Footprint) SOT-23))
-      (pins
-        (pin (num 1) (name G) (type input))
-        (pin (num 2) (name S) (type passive))
-        (pin (num 3) (name D) (type passive))))
     (libpart (lib pfo) (part MPL115A2)
       (fields
         (field (name Reference) U)
@@ -660,6 +637,29 @@
         (pin (num 62) (name ERXDV/ECRSDV/PMD2/RE2) (type BiDi))
         (pin (num 63) (name ERXCLK/EREFCLK/PMD3/RE3) (type BiDi))
         (pin (num 64) (name ERXERR/PMD4/RE4) (type BiDi))))
+    (libpart (lib pfo) (part HTU21)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) HTU21)
+        (field (name Footprint) MODULE)
+        (field (name Datasheet) DOCUMENTATION))
+      (pins
+        (pin (num 1) (name SDA) (type openCol))
+        (pin (num 2) (name GND) (type power_in))
+        (pin (num 5) (name VDD) (type power_in))
+        (pin (num 6) (name SCK) (type openCol))))
+    (libpart (lib pfo) (part IRLM6402TRPBF)
+      (description IRLM6402TRPBF)
+      (footprints
+        (fp SOT*23))
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) IRLM6402TRPBF)
+        (field (name Footprint) SOT-23))
+      (pins
+        (pin (num 1) (name G) (type input))
+        (pin (num 2) (name S) (type passive))
+        (pin (num 3) (name D) (type passive))))
     (libpart (lib pfo) (part TC1262-3.3VDB)
       (fields
         (field (name Reference) U)
@@ -687,10 +687,10 @@
       (uri "/Library/Application Support/kicad/library/device.lib"))
     (library (logical conn)
       (uri "/Library/Application Support/kicad/library/conn.lib"))
-    (library (logical opto)
-      (uri "/Library/Application Support/kicad/library/opto.lib"))
     (library (logical pfo)
-      (uri /Users/philippefouquet/Documents/Developpement/Electronique/CaptorBoard/pfo.lib)))
+      (uri /Users/philippefouquet/Documents/Developpement/Electronique/CaptorBoard/pfo.lib))
+    (library (logical opto)
+      (uri "/Library/Application Support/kicad/library/opto.lib")))
   (nets
     (net (code 1) (name "Net-(C4-Pad1)")
       (node (ref U1) (pin 56))

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-04-05 BZR 5577)-product   date = Jeudi 23 avril 2015 10:21:30
+Cmp-Mod V01 Created by Cvpcb (2015-04-22 BZR 5621)-product   date = Lundi 04 mai 2015 09:33:22
 
 BeginCmp
 TimeStamp = /5524D72A;
@@ -137,35 +137,35 @@ BeginCmp
 TimeStamp = /552596B4;
 Reference = D3;
 ValeurCmp = POWER;
-IdModule  = pfo:LED-1206-Guide;
+IdModule  = LEDs:LED-3MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /55259738;
 Reference = D4;
 ValeurCmp = CONF;
-IdModule  = pfo:LED-1206-Guide;
+IdModule  = LEDs:LED-3MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /5525979F;
 Reference = D5;
 ValeurCmp = ECO;
-IdModule  = pfo:LED-1206-Guide;
+IdModule  = LEDs:LED-3MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /55259801;
 Reference = D6;
 ValeurCmp = CONF-1°C;
-IdModule  = pfo:LED-1206-Guide;
+IdModule  = LEDs:LED-3MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /55259860;
 Reference = D7;
 ValeurCmp = CONF-2°C;
-IdModule  = pfo:LED-1206-Guide;
+IdModule  = LEDs:LED-3MM;
 EndCmp
 
 BeginCmp
@@ -304,14 +304,14 @@ EndCmp
 BeginCmp
 TimeStamp = /55263B6B;
 Reference = R12;
-ValeurCmp = 550R;
+ValeurCmp = 560R;
 IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /55263BF1;
 Reference = R13;
-ValeurCmp = 550R;
+ValeurCmp = 560R;
 IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
