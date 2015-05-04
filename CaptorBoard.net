@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/philippefouquet/Documents/Developpement/Electronique/CaptorBoard/CaptorBoard.sch)
-    (date "Lundi 04 mai 2015 09:33:38")
+    (date "Lundi 04 mai 2015 10:44:41")
     (tool "Eeschema (2015-04-22 BZR 5621)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -181,7 +181,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 55256E2D))
     (comp (ref U3)
-      (value HTU21)
+      (value SHT25)
       (footprint pfo:HTU21)
       (datasheet DOCUMENTATION)
       (libsource (lib pfo) (part HTU21))
