@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name CaptorBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/CaptorBoard-rescue.lib)(options "")(descr ""))
+  (lib (name pfo)(type Legacy)(uri ${KIPRJMOD}/pfo.lib)(options "")(descr ""))
+  (lib (name wemos_mini)(type Legacy)(uri ${KIPRJMOD}/wemos-d1-mini-kicad/libraries/wemos_mini.lib)(options "")(descr ""))
+)
