@@ -1,6 +1,38 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# CaptorBoard-rescue_Conn_01x06-Connector
+#
+DEF CaptorBoard-rescue_Conn_01x06-Connector J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "CaptorBoard-rescue_Conn_01x06-Connector" 0 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -350 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+X Pin_6 6 -200 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # CaptorBoard-rescue_D-RESCUE-CaptorBoard
 #
 DEF CaptorBoard-rescue_D-RESCUE-CaptorBoard D 0 40 N N 1 F N
@@ -46,6 +78,72 @@ P 3 0 1 0 65 -40 110 -80 105 -55 N
 P 3 0 1 0 80 -25 125 -65 120 -40 N
 X A 1 -200 0 150 R 40 40 1 1 P
 X K 2 200 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CaptorBoard-rescue_MOC3041M-opto
+#
+DEF CaptorBoard-rescue_MOC3041M-opto U 0 40 Y Y 1 F N
+F0 "U" -200 200 50 H V L CNN
+F1 "CaptorBoard-rescue_MOC3041M-opto" 0 200 50 H V L CNN
+F2 "" -200 -200 50 H I L CIN
+F3 "" -35 0 50 H I L CNN
+$FPLIST
+ DIP*W7.62mm*
+ SMDIP*W9.53mm*
+ DIP*W10.16mm*
+$ENDFPLIST
+DRAW
+C 90 -100 5 0 1 0 N
+C 90 100 5 0 1 0 N
+S -200 150 200 -150 0 1 10 f
+P 2 0 1 10 -150 -25 -100 -25 N
+P 2 0 1 0 5 -45 5 100 N
+P 2 0 1 0 5 100 90 100 N
+P 2 0 1 10 75 25 145 25 N
+P 2 0 1 0 90 -100 50 -100 N
+P 2 0 1 0 90 -100 90 -25 N
+P 2 0 1 0 90 -100 200 -100 N
+P 2 0 1 0 90 100 90 25 N
+P 2 0 1 0 90 100 200 100 N
+P 2 0 1 10 105 -25 35 -25 N
+P 3 0 1 0 -200 100 -125 100 -125 25 N
+P 3 0 1 0 -125 -25 -125 -100 -200 -100 N
+P 3 0 1 0 75 -25 60 -55 50 -55 N
+P 4 0 1 10 -125 -25 -150 25 -100 25 -125 -25 F
+P 4 0 1 0 -25 -60 -10 -60 -25 -100 -10 -100 N
+P 4 0 1 0 0 -65 5 -60 10 -60 15 -65 N
+P 4 0 1 10 60 -25 85 25 35 25 60 -25 F
+P 4 0 1 10 120 25 95 -25 145 -25 120 25 F
+P 5 0 1 0 -75 -20 -25 -20 -40 -25 -40 -15 -25 -20 N
+P 5 0 1 0 -75 20 -25 20 -40 15 -40 25 -25 20 N
+P 5 0 1 0 -35 -45 -35 -115 50 -115 50 -45 -35 -45 N
+P 5 0 1 0 15 -95 10 -100 5 -100 0 -95 0 -65 N
+P 7 0 1 0 25 -60 25 -100 35 -100 40 -95 40 -65 35 -60 25 -60 N
+X ~ 1 -300 100 100 R 50 50 1 1 P
+X ~ 2 -300 -100 100 R 50 50 1 1 P
+X NC 3 -300 0 100 R 50 50 1 1 N N
+X ~ 4 300 -100 100 L 50 50 1 1 P
+X NC 5 300 0 100 L 50 50 1 1 N N
+X ~ 6 300 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CaptorBoard-rescue_R-device
+#
+DEF CaptorBoard-rescue_R-device R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "CaptorBoard-rescue_R-device" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -96,102 +194,21 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x06
+# device_Fuse_Small
 #
-DEF Connector_Conn_01x06 J 0 40 Y N 1 F N
-F0 "J" 0 300 50 H V C CNN
-F1 "Connector_Conn_01x06" 0 -400 50 H V C CNN
+DEF device_Fuse_Small F 0 10 N N 1 F N
+F0 "F" 0 -60 50 H V C CNN
+F1 "device_Fuse_Small" 0 60 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
+ SM*
 $ENDFPLIST
 DRAW
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 250 50 -350 1 1 10 f
-X Pin_1 1 -200 200 150 R 50 50 1 1 P
-X Pin_2 2 -200 100 150 R 50 50 1 1 P
-X Pin_3 3 -200 0 150 R 50 50 1 1 P
-X Pin_4 4 -200 -100 150 R 50 50 1 1 P
-X Pin_5 5 -200 -200 150 R 50 50 1 1 P
-X Pin_6 6 -200 -300 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device_R
-#
-DEF device_R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "device_R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# opto_MOC3041M
-#
-DEF opto_MOC3041M U 0 40 Y Y 1 F N
-F0 "U" -200 200 50 H V L CNN
-F1 "opto_MOC3041M" 0 200 50 H V L CNN
-F2 "" -200 -200 50 H I L CIN
-F3 "" -35 0 50 H I L CNN
-ALIAS MOC3032M MOC3033M MOC3041M MOC3042M MOC3043M MOC3081M MOC3082M MOC3083M MOC3061M MOC3062M MOC3063M MOC3162M MOC3163M
-$FPLIST
- DIP*W7.62mm*
- SMDIP*W9.53mm*
- DIP*W10.16mm*
-$ENDFPLIST
-DRAW
-C 90 -100 5 0 1 0 N
-C 90 100 5 0 1 0 N
-S -200 150 200 -150 0 1 10 f
-P 2 0 1 10 -150 -25 -100 -25 N
-P 2 0 1 0 5 -45 5 100 N
-P 2 0 1 0 5 100 90 100 N
-P 2 0 1 10 75 25 145 25 N
-P 2 0 1 0 90 -100 50 -100 N
-P 2 0 1 0 90 -100 90 -25 N
-P 2 0 1 0 90 -100 200 -100 N
-P 2 0 1 0 90 100 90 25 N
-P 2 0 1 0 90 100 200 100 N
-P 2 0 1 10 105 -25 35 -25 N
-P 3 0 1 0 -200 100 -125 100 -125 25 N
-P 3 0 1 0 -125 -25 -125 -100 -200 -100 N
-P 3 0 1 0 75 -25 60 -55 50 -55 N
-P 4 0 1 10 -125 -25 -150 25 -100 25 -125 -25 F
-P 4 0 1 0 -25 -60 -10 -60 -25 -100 -10 -100 N
-P 4 0 1 0 0 -65 5 -60 10 -60 15 -65 N
-P 4 0 1 10 60 -25 85 25 35 25 60 -25 F
-P 4 0 1 10 120 25 95 -25 145 -25 120 25 F
-P 5 0 1 0 -75 -20 -25 -20 -40 -25 -40 -15 -25 -20 N
-P 5 0 1 0 -75 20 -25 20 -40 15 -40 25 -25 20 N
-P 5 0 1 0 -35 -45 -35 -115 50 -115 50 -45 -35 -45 N
-P 5 0 1 0 15 -95 10 -100 5 -100 0 -95 0 -65 N
-P 7 0 1 0 25 -60 25 -100 35 -100 40 -95 40 -65 35 -60 25 -60 N
-X ~ 1 -300 100 100 R 50 50 1 1 P
-X ~ 2 -300 -100 100 R 50 50 1 1 P
-X NC 3 -300 0 100 R 50 50 1 1 N N
-X ~ 4 300 -100 100 L 50 50 1 1 P
-X NC 5 300 0 100 L 50 50 1 1 N N
-X ~ 6 300 100 100 L 50 50 1 1 P
+S -50 20 50 -20 0 1 0 N
+P 2 0 1 0 -50 0 50 0 N
+X ~ 1 -100 0 50 R 50 50 1 1 P
+X ~ 2 100 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
