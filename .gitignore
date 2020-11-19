@@ -5,3 +5,4 @@ _autosave*
 *bak
 ~$*
 *.DS_Store
+/CaptorBoard-backups/
