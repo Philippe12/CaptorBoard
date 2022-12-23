@@ -473,7 +473,7 @@
       "idf": "",
       "netlist": "CaptorBoard.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "CaptorBoard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
