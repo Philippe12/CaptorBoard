@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\philippe.fouquet\Documents\sources\perso\CaptorBoard\CaptorBoard.kicad_sch</source>
-    <date>25/11/2022 16:21:44</date>
-    <tool>Eeschema (6.0.9)</tool>
+    <source>/Users/philippefouquet/Documents/Developpement/Electronique/CaptorBoard/CaptorBoard.kicad_sch</source>
+    <date>2023 April 02, Sunday 15:11:16</date>
+    <tool>Eeschema 7.0.1-0</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>CaptorBoart</title>
@@ -27,218 +27,342 @@
     <comp ref="C1">
       <value>0.1µ</value>
       <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/40/AutoMLCC-777028.pdf</datasheet>
+      <fields>
+        <field name="manf#">12101C104K4T2A</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="12101C104K4T2A"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>20d7e9b8-38b0-4eee-b05e-fb428ad8fb80</tstamps>
     </comp>
     <comp ref="C2">
       <value>12p</value>
       <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/212/KEM_C1007_X8R_ULTRA_150C_SMD-1102703.pdf</datasheet>
+      <fields>
+        <field name="manf#">C1210C120J1HACTU</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="C1210C120J1HACTU"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>45c2d203-83b4-4bca-972d-4a92ff9b4bc7</tstamps>
     </comp>
     <comp ref="C3">
       <value>12p</value>
       <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/212/KEM_C1007_X8R_ULTRA_150C_SMD-1102703.pdf</datasheet>
+      <fields>
+        <field name="manf#">C1210C120J1HACTU</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="C1210C120J1HACTU"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f70ee7ad-1cf5-4edc-a023-8bed7180cf07</tstamps>
     </comp>
     <comp ref="C4">
       <value>22µ</value>
       <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="manf#">CL32A226MOJNNNE</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL32A226MOJNNNE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9e040f62-294f-4452-b797-ed7ad135e508</tstamps>
     </comp>
     <comp ref="C5">
       <value>0.1µ</value>
       <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/40/AutoMLCC-777028.pdf</datasheet>
+      <fields>
+        <field name="manf#">12101C104K4T2A</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="12101C104K4T2A"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a585ae93-c704-47d1-84fd-9b35e82a93d1</tstamps>
     </comp>
     <comp ref="C6">
       <value>1µ</value>
       <footprint>Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="manf#">CL32B105KBHNNNE</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="manf#" value="CL32B105KBHNNNE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>84ddda4f-d741-4e88-804e-d13d74f292cd</tstamps>
     </comp>
     <comp ref="D1">
       <value>LTST-C930KGKT</value>
       <footprint>LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/239/LTST-C930KGKT-1144029.pdf</datasheet>
+      <fields>
+        <field name="manf#">LTST-C930KGKT</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value="LTST-C930KGKT"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>cb3bc3ab-468c-434c-aa20-919a7b768cf4</tstamps>
     </comp>
     <comp ref="D2">
-      <value>MRA4007T3G</value>
-      <footprint>Diode_SMD:D_SMA</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF</datasheet>
-      <libsource lib="Diode" part="MRA4007T3G" description="1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"/>
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="manf#">1N4148W-E3-08</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="manf#" value="1N4148W-E3-08"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="ki_keywords" value="diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c1fe56c5-5fed-4b52-98f2-2712418bf661</tstamps>
+      <tstamps>5d860847-5a70-4a1f-89b3-3dec4e5245c1</tstamps>
     </comp>
     <comp ref="D3">
       <value>LTST-C930KGKT</value>
       <footprint>LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/239/LTST-C930KGKT-1144029.pdf</datasheet>
+      <fields>
+        <field name="manf#">LTST-C930KGKT</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value="LTST-C930KGKT"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000552596b4</tstamps>
     </comp>
     <comp ref="D4">
       <value>LTST-C930KGKT</value>
       <footprint>LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/239/LTST-C930KGKT-1144029.pdf</datasheet>
+      <fields>
+        <field name="manf#">LTST-C930KGKT</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value="LTST-C930KGKT"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000055259738</tstamps>
     </comp>
     <comp ref="D5">
       <value>LTST-C930KGKT</value>
       <footprint>LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/239/LTST-C930KGKT-1144029.pdf</datasheet>
+      <fields>
+        <field name="manf#">LTST-C930KGKT</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value="LTST-C930KGKT"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005525979f</tstamps>
     </comp>
     <comp ref="D6">
       <value>LTST-C930KGKT</value>
       <footprint>LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/239/LTST-C930KGKT-1144029.pdf</datasheet>
+      <fields>
+        <field name="manf#">LTST-C930KGKT</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value="LTST-C930KGKT"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000055259801</tstamps>
     </comp>
     <comp ref="D7">
       <value>LTST-C930KGKT</value>
       <footprint>LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/239/LTST-C930KGKT-1144029.pdf</datasheet>
+      <fields>
+        <field name="manf#">LTST-C930KGKT</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value="LTST-C930KGKT"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000055259860</tstamps>
     </comp>
     <comp ref="D8">
       <value>LTST-C930KGKT</value>
       <footprint>LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/239/LTST-C930KGKT-1144029.pdf</datasheet>
+      <fields>
+        <field name="manf#">LTST-C930KGKT</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="manf#" value="LTST-C930KGKT"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>49d8d0e5-2288-44ca-a092-aaa2915a0b78</tstamps>
     </comp>
     <comp ref="D9">
       <value>1N4004</value>
       <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
-      <libsource lib="CaptorBoard-rescue" part="D-RESCUE-CaptorBoard" description=""/>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="manf#">1N4004T-G</field>
+      </fields>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="manf#" value="1N4004T-G"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000055263ee3</tstamps>
+      <tstamps>7ae5d9cb-8441-426a-8f98-fb807d06a272</tstamps>
     </comp>
     <comp ref="D10">
       <value>1N4004</value>
       <footprint>Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal</footprint>
-      <libsource lib="CaptorBoard-rescue" part="D-RESCUE-CaptorBoard" description=""/>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="manf#">1N4004T-G</field>
+      </fields>
+      <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="manf#" value="1N4004T-G"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="400V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000055263e2e</tstamps>
+      <tstamps>97283c0f-5a90-46ed-b08c-1e15be04551c</tstamps>
     </comp>
     <comp ref="D11">
-      <value>MRA4007T3G</value>
-      <footprint>Diode_SMD:D_SMA</footprint>
-      <datasheet>http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF</datasheet>
-      <libsource lib="Diode" part="MRA4007T3G" description="1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)"/>
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="manf#">1N4148W-E3-08</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="manf#" value="1N4148W-E3-08"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <property name="ki_keywords" value="diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>0bab499e-07f0-4398-842a-6e921fdf3794</tstamps>
+      <tstamps>631932b9-32db-4df3-8dc6-416f6fba28f4</tstamps>
     </comp>
     <comp ref="F1">
-      <value>Fuse_Small</value>
+      <value>Fuse_Small-device</value>
       <footprint>Fuse:Fuseholder_Littelfuse_Nano2_157x</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/240/Littelfuse_Fuse_443_Datasheet_pdf-1102277.pdf</datasheet>
+      <fields>
+        <field name="manf#">0443001.DR</field>
+      </fields>
       <libsource lib="CaptorBoard-rescue" part="Fuse_Small-device" description=""/>
+      <property name="manf#" value="0443001.DR"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005ef05183</tstamps>
     </comp>
-    <comp ref="J1">
-      <value>Conn_01x06</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
-      <libsource lib="CaptorBoard-rescue" part="Conn_01x06-Connector" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005b479c9b</tstamps>
-    </comp>
     <comp ref="J2">
       <value>Screw_Terminal_01x03</value>
       <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/670/tb007_508-2306759.pdf</datasheet>
+      <fields>
+        <field name="manf#">TB007-508-03BE</field>
+      </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="manf#" value="TB007-508-03BE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>63e9e07e-400e-408a-be74-58cac11ed7d9</tstamps>
     </comp>
     <comp ref="J3">
       <value>Screw_Terminal_01x03</value>
       <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/670/tb007_508-2306759.pdf</datasheet>
+      <fields>
+        <field name="manf#">TB007-508-03BE</field>
+      </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="manf#" value="TB007-508-03BE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>63dc06f4-9edb-4198-a79d-87b4fe8be05f</tstamps>
-    </comp>
-    <comp ref="J4">
-      <value>Conn_01x07</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>23cc7aed-8db8-4d67-b306-7e75ed8a293d</tstamps>
-    </comp>
-    <comp ref="J5">
-      <value>Conn_01x04</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
-      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5d379cd7-ca30-4f53-ac9a-60f8ab882ed6</tstamps>
     </comp>
     <comp ref="J6">
       <value>Screw_Terminal_01x03</value>
       <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/670/tb007_508-2306759.pdf</datasheet>
+      <fields>
+        <field name="manf#">TB007-508-03BE</field>
+      </fields>
       <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="manf#" value="TB007-508-03BE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>335a17de-ad5d-4cd2-8615-d3fc7e85f41b</tstamps>
     </comp>
@@ -246,9 +370,15 @@
       <value>G5LE-1-DC5</value>
       <footprint>Relay_THT:Relay_SPDT_Omron-G5LE-1</footprint>
       <datasheet>http://www.omron.com/ecb/products/pdf/en-g5le.pdf</datasheet>
+      <fields>
+        <field name="manf#">G5LE-1-DC5</field>
+      </fields>
       <libsource lib="Relay" part="G5LE-1" description="Omron G5LE relay, Miniature Single Pole, SPDT, 10A"/>
+      <property name="manf#" value="G5LE-1-DC5"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Omron G5LE relay, Miniature Single Pole, SPDT, 10A"/>
+      <property name="ki_keywords" value="Miniature Single Pole Relay"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9a7df3cf-ba1a-4819-acdf-003e49f2e8f1</tstamps>
     </comp>
@@ -256,29 +386,47 @@
       <value>G5LE-1-DC5</value>
       <footprint>Relay_THT:Relay_SPDT_Omron-G5LE-1</footprint>
       <datasheet>http://www.omron.com/ecb/products/pdf/en-g5le.pdf</datasheet>
+      <fields>
+        <field name="manf#">G5LE-1-DC5</field>
+      </fields>
       <libsource lib="Relay" part="G5LE-1" description="Omron G5LE relay, Miniature Single Pole, SPDT, 10A"/>
+      <property name="manf#" value="G5LE-1-DC5"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Omron G5LE relay, Miniature Single Pole, SPDT, 10A"/>
+      <property name="ki_keywords" value="Miniature Single Pole Relay"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>36f9acda-2cad-4b34-b730-a2280dbbbf07</tstamps>
     </comp>
     <comp ref="PS1">
-      <value>IRM-05-5</value>
-      <footprint>Converter_ACDC:Converter_ACDC_MeanWell_IRM-05-xx_THT</footprint>
-      <datasheet>https://www.meanwell.com/Upload/PDF/IRM-05/IRM-05-SPEC.PDF</datasheet>
-      <libsource lib="Converter_ACDC" part="IRM-05-5" description="5V, 1A, 5W, Isolated, AC-DC, 222A(IRM05)"/>
+      <value>PSK-5D-5</value>
+      <footprint>pfo:PSK5D5</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/670/psk_5d-2474718.pdf</datasheet>
+      <fields>
+        <field name="manf#">PSK-5D-5</field>
+      </fields>
+      <libsource lib="pfo" part="PSK-5D-5" description="24V, 125mA, 3W, Isolated, AC-DC, IRM03-SMD"/>
+      <property name="manf#" value="PSK-5D-5"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="24V, 125mA, 3W, Isolated, AC-DC, IRM03-SMD"/>
+      <property name="ki_keywords" value="Miniature Module-type Power Supply MeanWell"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>43b55e6c-f551-41f8-baf6-d6b8e6806cfa</tstamps>
+      <tstamps>dbba8481-c4d6-4ba4-b054-b223dba47854</tstamps>
     </comp>
     <comp ref="Q1">
       <value>2N7002E</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
+      <fields>
+        <field name="manf#">2N7002KT1G</field>
+      </fields>
       <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="manf#" value="2N7002KT1G"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7b3ff3d8-2086-42d2-a85c-156292a43501</tstamps>
     </comp>
@@ -286,163 +434,283 @@
       <value>2N7002E</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
+      <fields>
+        <field name="manf#">2N7002KT1G</field>
+      </fields>
       <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="manf#" value="2N7002KT1G"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>46bcb2d0-8858-4d47-a937-da4c8f8e9b8f</tstamps>
     </comp>
     <comp ref="R1">
       <value>1k</value>
       <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/210/Kamaya_RMC_series_8_2022-3032447.pdf</datasheet>
+      <fields>
+        <field name="manf#">RMC1/4-102JTE</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RMC1/4-102JTE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0a8e262e-42cd-465c-bf6c-b27ab596d6d2</tstamps>
     </comp>
     <comp ref="R2">
       <value>5M</value>
       <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/427/crma-1765222.pdf</datasheet>
+      <fields>
+        <field name="manf#">CRMA1210AF4M99FKEF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="CRMA1210AF4M99FKEF"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d3ae6781-a0f2-4f59-93a6-0470c873f620</tstamps>
     </comp>
     <comp ref="R3">
       <value>10k</value>
       <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/219/RK73B-1825463.pdf</datasheet>
+      <fields>
+        <field name="manf#">RMCF1210FT10K0</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RMCF1210FT10K0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2066969c-a9c4-44b0-bf72-e91be27c04a0</tstamps>
     </comp>
     <comp ref="R4">
-      <value>1k</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/219/RK73B-1825463.pdf</datasheet>
+      <fields>
+        <field name="manf#">RMCF1210FT10K0</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RMCF1210FT10K0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a0fe9f97-a439-4f18-97b2-79d843978f40</tstamps>
     </comp>
     <comp ref="R5">
       <value>1k</value>
       <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/210/Kamaya_RMC_series_8_2022-3032447.pdf</datasheet>
+      <fields>
+        <field name="manf#">RMC1/4-102JTE</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RMC1/4-102JTE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e36fd98e-b2e3-4d5c-b562-2284bdf8582e</tstamps>
     </comp>
     <comp ref="R6">
-      <value>1k</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/219/RK73B-1825463.pdf</datasheet>
+      <fields>
+        <field name="manf#">RMCF1210FT10K0</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RMCF1210FT10K0"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>0dec3325-3d81-4614-8090-ad0544c4f3c0</tstamps>
     </comp>
     <comp ref="R7">
       <value>1k</value>
       <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/210/Kamaya_RMC_series_8_2022-3032447.pdf</datasheet>
+      <fields>
+        <field name="manf#">RMC1/4-102JTE</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RMC1/4-102JTE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000552598c5</tstamps>
     </comp>
     <comp ref="R8">
       <value>1k</value>
       <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/210/Kamaya_RMC_series_8_2022-3032447.pdf</datasheet>
+      <fields>
+        <field name="manf#">RMC1/4-102JTE</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RMC1/4-102JTE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000055259948</tstamps>
     </comp>
     <comp ref="R9">
       <value>1k</value>
       <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/210/Kamaya_RMC_series_8_2022-3032447.pdf</datasheet>
+      <fields>
+        <field name="manf#">RMC1/4-102JTE</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RMC1/4-102JTE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000552599b5</tstamps>
     </comp>
     <comp ref="R10">
       <value>1k</value>
       <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/210/Kamaya_RMC_series_8_2022-3032447.pdf</datasheet>
+      <fields>
+        <field name="manf#">RMC1/4-102JTE</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RMC1/4-102JTE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000055259a19</tstamps>
     </comp>
     <comp ref="R11">
       <value>1k</value>
       <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/210/Kamaya_RMC_series_8_2022-3032447.pdf</datasheet>
+      <fields>
+        <field name="manf#">RMC1/4-102JTE</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RMC1/4-102JTE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000055259a7f</tstamps>
     </comp>
     <comp ref="R12">
       <value>560R</value>
       <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/219/RK73B-1825463.pdf</datasheet>
+      <fields>
+        <field name="manf#">RK73B2ETTD561J</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RK73B2ETTD561J"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000055263b6b</tstamps>
     </comp>
     <comp ref="R13">
       <value>560R</value>
       <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/219/RK73B-1825463.pdf</datasheet>
+      <fields>
+        <field name="manf#">RK73B2ETTD561J</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RK73B2ETTD561J"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000055263bf1</tstamps>
     </comp>
     <comp ref="R14">
       <value>1k</value>
       <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/210/Kamaya_RMC_series_8_2022-3032447.pdf</datasheet>
+      <fields>
+        <field name="manf#">RMC1/4-102JTE</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="manf#" value="RMC1/4-102JTE"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>e64e6e99-2658-42f5-bb36-e7e0d9dcbb5a</tstamps>
     </comp>
     <comp ref="SW1">
-      <value>SKHHLVA010</value>
+      <value>SW_PUSH</value>
       <footprint>Button_Switch_THT:SW_Tactile_SKHH_Angled</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/15/SKHH-1370651.pdf</datasheet>
+      <fields>
+        <field name="manf#">SKHHLPA010</field>
+      </fields>
       <libsource lib="CaptorBoard-rescue" part="SW_PUSH" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005525b6ce</tstamps>
-    </comp>
-    <comp ref="SW2">
-      <value>SKHHLVA010</value>
-      <footprint>Button_Switch_THT:SW_Tactile_SKHH_Angled</footprint>
-      <libsource lib="CaptorBoard-rescue" part="SW_PUSH" description=""/>
+      <property name="manf#" value="SKHHLPA010"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005a92381d</tstamps>
     </comp>
+    <comp ref="SW2">
+      <value>SW_PUSH</value>
+      <footprint>Button_Switch_THT:SW_Tactile_SKHH_Angled</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/15/SKHH-1370651.pdf</datasheet>
+      <fields>
+        <field name="manf#">SKHHLPA010</field>
+      </fields>
+      <libsource lib="CaptorBoard-rescue" part="SW_PUSH" description=""/>
+      <property name="manf#" value="SKHHLPA010"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005525b6ce</tstamps>
+    </comp>
     <comp ref="U1">
       <value>ESP32-WROOM-32E-N4</value>
       <footprint>Espressif:ESP32-WROOM-32E</footprint>
       <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf</datasheet>
+      <fields>
+        <field name="manf#">ESP32-WROOM-32E-N4</field>
+      </fields>
       <libsource lib="Espressif" part="ESP32-WROOM-E" description="ESP32-WROOM-32E integrates ESP32-D0WD-V3, with higher stability and safety performance."/>
+      <property name="manf#" value="ESP32-WROOM-32E-N4"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="ESP32-WROOM-32E integrates ESP32-D0WD-V3, with higher stability and safety performance."/>
+      <property name="ki_keywords" value="ESP32"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4da31c18-087a-4421-95b9-ec3c8ddb1a13</tstamps>
     </comp>
@@ -450,41 +718,83 @@
       <value>TC1264-3.3VDBTR</value>
       <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21373C.pdf</datasheet>
+      <fields>
+        <field name="manf#">TC1264-3.3VDBTR</field>
+      </fields>
       <libsource lib="Regulator_Linear" part="TC1262-33" description="500mA Low Dropout CMOS Voltage Regulator, Fixed Output 3.3V, TO-220/SOT-223/TO-263"/>
+      <property name="manf#" value="TC1264-3.3VDBTR"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="500mA Low Dropout CMOS Voltage Regulator, Fixed Output 3.3V, TO-220/SOT-223/TO-263"/>
+      <property name="ki_keywords" value="Voltage Regulator 3.3V 500mA Positive CMOS LDO Microchip"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ce761896-b638-44d6-9a27-09217f0727ed</tstamps>
     </comp>
     <comp ref="U3">
-      <value>MOC3040X</value>
+      <value>MOC3041M-opto</value>
       <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
-      <libsource lib="CaptorBoard-rescue" part="MOC3041M-opto" description=""/>
+      <datasheet>https://www.mouser.fr/datasheet/2/308/1/MOC3043M_D-1811826.pdf</datasheet>
+      <fields>
+        <field name="manf#">MOC3041VM</field>
+      </fields>
+      <libsource lib="" part="MOC3041M-opto_1" description=""/>
+      <property name="manf#" value="MOC3041VM"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005ad13dbb</tstamps>
     </comp>
     <comp ref="U4">
-      <value>MOC3040X</value>
+      <value>MOC3041M-opto</value>
       <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/308/1/MOC3043M_D-1811826.pdf</datasheet>
+      <fields>
+        <field name="manf#">MOC3041VM</field>
+      </fields>
       <libsource lib="CaptorBoard-rescue" part="MOC3041M-opto" description=""/>
+      <property name="manf#" value="MOC3041VM"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005ad13e48</tstamps>
     </comp>
     <comp ref="Y1">
-      <value>CC7V-T1A-32.768kHz-12.5pF-100PPM-TA-QC</value>
-      <footprint>Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm_HandSoldering</footprint>
+      <value>CM8V-T1A-32.768kHz-12.5pF-20PPM-TA-QC</value>
+      <footprint>Crystal:Crystal_SMD_MicroCrystal_CC8V-T1A-2Pin_2.0x1.2mm_HandSoldering</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/530/CM8V_T1A-1510858.pdf</datasheet>
+      <fields>
+        <field name="manf#">CM8V-T1A-32.768kHz-12.5pF-20PPM-TA-QC</field>
+      </fields>
       <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="manf#" value="CM8V-T1A-32.768kHz-12.5pF-20PPM-TA-QC"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
+      <property name="ki_description" value="Two pin crystal"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9d863cc8-d43d-4a4f-b9a1-65d6034d7d29</tstamps>
     </comp>
   </components>
   <libparts>
+    <libpart lib="" part="MOC3041M-opto_1">
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SMDIP*W9.53mm*</fp>
+        <fp>DIP*W10.16mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MOC3041M-opto</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="CaptorBoard-rescue" part="Conn_01x06-Connector">
       <footprints>
         <fp>Connector*:*_??x*mm*</fp>
@@ -505,23 +815,6 @@
         <pin num="4" name="Pin_4" type="passive"/>
         <pin num="5" name="Pin_5" type="passive"/>
         <pin num="6" name="Pin_6" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="CaptorBoard-rescue" part="D-RESCUE-CaptorBoard">
-      <footprints>
-        <fp>Diode_*</fp>
-        <fp>D-Pak_TO252AA</fp>
-        <fp>*SingleDiode</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D-RESCUE-CaptorBoard</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="CaptorBoard-rescue" part="Fuse_Small-device">
@@ -622,25 +915,6 @@
         <pin num="7" name="Pin_7" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Converter_ACDC" part="IRM-05-5">
-      <description>5V, 1A, 5W, Isolated, AC-DC, 222A(IRM05)</description>
-      <docs>https://www.meanwell.com/Upload/PDF/IRM-05/IRM-05-SPEC.PDF</docs>
-      <footprints>
-        <fp>Converter*ACDC*MeanWell*IRM*05*THT*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">PS</field>
-        <field name="Value">IRM-05-5</field>
-        <field name="Footprint">Converter_ACDC:Converter_ACDC_MeanWell_IRM-05-xx_THT</field>
-        <field name="Datasheet">https://www.meanwell.com/Upload/PDF/IRM-05/IRM-05-SPEC.PDF</field>
-      </fields>
-      <pins>
-        <pin num="1" name="AC/N" type="power_in"/>
-        <pin num="2" name="AC/L" type="power_in"/>
-        <pin num="3" name="-Vo" type="power_out"/>
-        <pin num="4" name="+Vo" type="power_out"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="C">
       <description>Unpolarized capacitor</description>
       <docs>~</docs>
@@ -707,17 +981,38 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Diode" part="MRA4007T3G">
-      <description>1000V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)</description>
-      <docs>http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF</docs>
+    <libpart lib="Diode" part="1N4004">
+      <description>400V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
       <footprints>
-        <fp>D*SMA*</fp>
+        <fp>D*DO?41*</fp>
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">MRA4007T3G</field>
-        <field name="Footprint">Diode_SMD:D_SMA</field>
-        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/MRA4003T3-D.PDF</field>
+        <field name="Value">1N4004</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148W">
+      <description>75V 0.15A Fast Switching Diode, SOD-123</description>
+      <docs>https://www.vishay.com/docs/85748/1n4148w.pdf</docs>
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148W</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.vishay.com/docs/85748/1n4148w.pdf</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
@@ -774,6 +1069,16 @@
         <pin num="38" name="GND" type="passive"/>
         <pin num="39" name="GND_THERMAL" type="power_in"/>
       </pins>
+    </libpart>
+    <libpart lib="Graphic" part="Logo_Open_Hardware_Large">
+      <description>Open Hardware logo, large</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#SYM</field>
+        <field name="Value">Logo_Open_Hardware_Large</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Enable">0</field>
+      </fields>
     </libpart>
     <libpart lib="Regulator_Linear" part="TC1262-33">
       <description>500mA Low Dropout CMOS Voltage Regulator, Fixed Output 3.3V, TO-220/SOT-223/TO-263</description>
@@ -832,45 +1137,65 @@
         <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="pfo" part="PSK-5D-5">
+      <description>24V, 125mA, 3W, Isolated, AC-DC, IRM03-SMD</description>
+      <docs>https://www.mouser.fr/datasheet/2/670/psk_5d-2474718.pdf</docs>
+      <footprints>
+        <fp>Converter*ACDC*MeanWell*IRM*03*SMD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">PSK-5D-5</field>
+        <field name="Footprint">pfo:PSK5D5</field>
+        <field name="Datasheet">https://www.mouser.fr/datasheet/2/670/psk_5d-2474718.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AC/N" type="power_in"/>
+        <pin num="2" name="AC/L" type="power_in"/>
+        <pin num="4" name="-Vo" type="power_out"/>
+        <pin num="5" name="+Vo" type="power_out"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="CaptorBoard-rescue">
-      <uri>C:\Users\philippe.fouquet\Documents\sources\perso\CaptorBoard/CaptorBoard-rescue.lib</uri>
+      <uri>/Users/philippefouquet/Documents/Developpement/Electronique/CaptorBoard/CaptorBoard-rescue.lib</uri>
     </library>
     <library logical="Connector">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
     </library>
     <library logical="Connector_Generic">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
-    </library>
-    <library logical="Converter_ACDC">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Converter_ACDC.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="Diode">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
     </library>
     <library logical="Espressif">
-      <uri>C:\Users\philippe.fouquet\Documents\sources\perso\CaptorBoard/espressif/libraries/Espressif.kicad_sym</uri>
+      <uri>/Users/philippefouquet/Documents/Developpement/Electronique/CaptorBoard/espressif/libraries/Espressif.kicad_sym</uri>
+    </library>
+    <library logical="Graphic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Graphic.kicad_sym</uri>
     </library>
     <library logical="Regulator_Linear">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
     </library>
     <library logical="Relay">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Relay.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Relay.kicad_sym</uri>
     </library>
     <library logical="Transistor_FET">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="pfo">
+      <uri>/Users/philippefouquet/Documents/Developpement/Electronique/CaptorBoard/pfo.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="+3.3V">
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="3V3" pintype="power_in"/>
       <node ref="U2" pin="3" pinfunction="VO" pintype="power_out"/>
@@ -879,25 +1204,20 @@
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="K1" pin="5" pintype="passive"/>
       <node ref="K2" pin="5" pintype="passive"/>
-      <node ref="PS1" pin="4" pinfunction="+Vo" pintype="power_out"/>
-      <node ref="R14" pin="1" pintype="passive"/>
-      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="PS1" pin="5" pinfunction="+Vo" pintype="power_out"/>
       <node ref="U2" pin="1" pinfunction="VI" pintype="power_in"/>
     </net>
     <net code="3" name="/ANA">
-      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="DAC_1/ADC2_CH8/GPIO25" pintype="bidirectional"/>
     </net>
     <net code="4" name="/CAPTOR">
-      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="26" pinfunction="ADC2_CH0/GPIO4" pintype="bidirectional"/>
     </net>
     <net code="5" name="/CMD2">
-      <node ref="D10" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D9" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
     <net code="6" name="/CONF">
@@ -917,23 +1237,18 @@
       <node ref="U1" pin="23" pinfunction="MTDO/GPIO15/ADC2_CH3" pintype="bidirectional"/>
     </net>
     <net code="10" name="/GPIO5">
-      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="29" pinfunction="GPIO5" pintype="bidirectional"/>
     </net>
     <net code="11" name="/GPIO17">
-      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="28" pinfunction="GPIO17" pintype="bidirectional"/>
     </net>
     <net code="12" name="/GPIO23">
-      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="U1" pin="37" pinfunction="GPIO23" pintype="bidirectional"/>
     </net>
     <net code="13" name="/GPIO34">
-      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="GPIO34/ADC1_CH6" pintype="input"/>
     </net>
     <net code="14" name="/GPIO35">
-      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="GPIO35/ADC1_CH7" pintype="input"/>
     </net>
     <net code="15" name="/Neutre">
@@ -941,11 +1256,11 @@
       <node ref="PS1" pin="1" pinfunction="AC/N" pintype="power_in"/>
     </net>
     <net code="16" name="/P1">
-      <node ref="D9" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U3" pin="4" pintype="passive"/>
     </net>
     <net code="17" name="/P2">
-      <node ref="D10" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U4" pin="4" pintype="passive"/>
     </net>
     <net code="18" name="/PILOT_1">
@@ -971,7 +1286,9 @@
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
     <net code="23" name="/REL1">
-      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U1" pin="30" pinfunction="GPIO18" pintype="bidirectional"/>
     </net>
     <net code="24" name="/REL1-COM">
@@ -987,7 +1304,9 @@
       <node ref="K1" pin="3" pintype="passive"/>
     </net>
     <net code="27" name="/REL2">
-      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U1" pin="31" pinfunction="GPIO19" pintype="bidirectional"/>
     </net>
     <net code="28" name="/REL2-COM">
@@ -1005,27 +1324,23 @@
     <net code="31" name="/RESET">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="EN/CHIP_PU" pintype="input"/>
     </net>
     <net code="32" name="/RX">
-      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="34" pinfunction="U0RXD/GPIO3" pintype="bidirectional"/>
     </net>
     <net code="33" name="/SCL_EXT">
-      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="36" pinfunction="GPIO22" pintype="bidirectional"/>
     </net>
     <net code="34" name="/SDA_EXT">
-      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="33" pinfunction="GPIO21" pintype="bidirectional"/>
     </net>
     <net code="35" name="/SELECT">
-      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="25" pinfunction="GPIO0/BOOT/ADC2_CH1" pintype="bidirectional"/>
     </net>
     <net code="36" name="/TX">
-      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U1" pin="35" pinfunction="U0TXD/GPIO1" pintype="bidirectional"/>
     </net>
     <net code="37" name="/XN">
@@ -1047,17 +1362,19 @@
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="PS1" pin="3" pinfunction="-Vo" pintype="power_out"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="PS1" pin="4" pinfunction="-Vo" pintype="power_out"/>
       <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
       <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
@@ -1068,106 +1385,93 @@
       <node ref="U3" pin="2" pintype="passive"/>
       <node ref="U4" pin="2" pintype="passive"/>
     </net>
-    <net code="40" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+    <net code="40" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D2-A)">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="K1" pin="2" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="41" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R5" pin="2" pintype="passive"/>
-    </net>
-    <net code="42" name="Net-(D3-Pad1)">
+    <net code="42" name="Net-(D3-K)">
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
     </net>
-    <net code="43" name="Net-(D4-Pad1)">
+    <net code="43" name="Net-(D4-K)">
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
     </net>
-    <net code="44" name="Net-(D5-Pad1)">
+    <net code="44" name="Net-(D5-K)">
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
     </net>
-    <net code="45" name="Net-(D6-Pad1)">
+    <net code="45" name="Net-(D6-K)">
       <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
     </net>
-    <net code="46" name="Net-(D7-Pad1)">
+    <net code="46" name="Net-(D7-K)">
       <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
     </net>
-    <net code="47" name="Net-(D8-Pad2)">
+    <net code="47" name="Net-(D8-A)">
       <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
     </net>
-    <net code="48" name="Net-(D11-Pad2)">
+    <net code="48" name="Net-(D11-A)">
       <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="K2" pin="2" pintype="passive"/>
       <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="49" name="Net-(Q1-Pad1)">
-      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R4" pin="1" pintype="passive"/>
-    </net>
-    <net code="50" name="Net-(Q2-Pad1)">
-      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R6" pin="1" pintype="passive"/>
-    </net>
-    <net code="51" name="Net-(R3-Pad1)">
-      <node ref="R3" pin="1" pintype="passive"/>
-      <node ref="U1" pin="27" pinfunction="GPIO16" pintype="bidirectional"/>
-    </net>
-    <net code="52" name="Net-(R12-Pad1)">
+    <net code="49" name="Net-(R12-Pad1)">
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="U3" pin="1" pintype="passive"/>
     </net>
-    <net code="53" name="Net-(R13-Pad1)">
+    <net code="50" name="Net-(R13-Pad1)">
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="U4" pin="1" pintype="passive"/>
     </net>
-    <net code="54" name="unconnected-(J5-Pad3)">
-      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    <net code="51" name="Net-(U1-GPIO16)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="GPIO16" pintype="bidirectional"/>
     </net>
-    <net code="55" name="unconnected-(U1-Pad4)">
-      <node ref="U1" pin="4" pinfunction="SENSOR_VP/GPIO36/ADC1_CH0" pintype="input+no_connect"/>
-    </net>
-    <net code="56" name="unconnected-(U1-Pad5)">
-      <node ref="U1" pin="5" pinfunction="SENSOR_VN/GPIO39/ADC1_CH3" pintype="input+no_connect"/>
-    </net>
-    <net code="57" name="unconnected-(U1-Pad17)">
+    <net code="53" name="unconnected-(U1-NC-Pad17)">
       <node ref="U1" pin="17" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="58" name="unconnected-(U1-Pad18)">
+    <net code="54" name="unconnected-(U1-NC-Pad18)">
       <node ref="U1" pin="18" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="59" name="unconnected-(U1-Pad19)">
+    <net code="55" name="unconnected-(U1-NC-Pad19)">
       <node ref="U1" pin="19" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="60" name="unconnected-(U1-Pad20)">
+    <net code="56" name="unconnected-(U1-NC-Pad20)">
       <node ref="U1" pin="20" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="61" name="unconnected-(U1-Pad21)">
+    <net code="57" name="unconnected-(U1-NC-Pad21)">
       <node ref="U1" pin="21" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="62" name="unconnected-(U1-Pad22)">
+    <net code="58" name="unconnected-(U1-NC-Pad22)">
       <node ref="U1" pin="22" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="63" name="unconnected-(U1-Pad32)">
+    <net code="59" name="unconnected-(U1-NC-Pad32)">
       <node ref="U1" pin="32" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="64" name="unconnected-(U3-Pad3)">
+    <net code="60" name="unconnected-(U1-SENSOR_VN{slash}GPIO39{slash}ADC1_CH3-Pad5)">
+      <node ref="U1" pin="5" pinfunction="SENSOR_VN/GPIO39/ADC1_CH3" pintype="input+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U1-SENSOR_VP{slash}GPIO36{slash}ADC1_CH0-Pad4)">
+      <node ref="U1" pin="4" pinfunction="SENSOR_VP/GPIO36/ADC1_CH0" pintype="input+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U3-NC-Pad3)">
       <node ref="U3" pin="3" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="65" name="unconnected-(U3-Pad5)">
+    <net code="63" name="unconnected-(U3-NC-Pad5)">
       <node ref="U3" pin="5" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="66" name="unconnected-(U4-Pad3)">
+    <net code="64" name="unconnected-(U4-NC-Pad3)">
       <node ref="U4" pin="3" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="67" name="unconnected-(U4-Pad5)">
+    <net code="65" name="unconnected-(U4-NC-Pad5)">
       <node ref="U4" pin="5" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
