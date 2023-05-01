@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/Users/philippefouquet/Documents/Developpement/Electronique/CaptorBoard/CaptorBoard.kicad_sch</source>
-    <date>2023 April 02, Sunday 15:11:16</date>
-    <tool>Eeschema 7.0.1-0</tool>
+    <date>2023 May 01, Monday 16:40:26</date>
+    <tool>Eeschema 7.0.2-0</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>CaptorBoart</title>
@@ -419,10 +419,10 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
       <fields>
-        <field name="manf#">2N7002KT1G</field>
+        <field name="manf#">2N7002E-7-F</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
-      <property name="manf#" value="2N7002KT1G"/>
+      <property name="manf#" value="2N7002E-7-F"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
       <property name="ki_description" value="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -435,10 +435,10 @@
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>http://www.diodes.com/assets/Datasheets/ds30376.pdf</datasheet>
       <fields>
-        <field name="manf#">2N7002KT1G</field>
+        <field name="manf#">2N7002E-7-F</field>
       </fields>
       <libsource lib="Transistor_FET" part="2N7002E" description="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
-      <property name="manf#" value="2N7002KT1G"/>
+      <property name="manf#" value="2N7002E-7-F"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
       <property name="ki_description" value="0.24A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
@@ -735,10 +735,10 @@
       <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
       <datasheet>https://www.mouser.fr/datasheet/2/308/1/MOC3043M_D-1811826.pdf</datasheet>
       <fields>
-        <field name="manf#">MOC3041VM</field>
+        <field name="manf#">MOC3041M</field>
       </fields>
       <libsource lib="" part="MOC3041M-opto_1" description=""/>
-      <property name="manf#" value="MOC3041VM"/>
+      <property name="manf#" value="MOC3041M"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -749,10 +749,10 @@
       <footprint>Package_DIP:DIP-6_W7.62mm</footprint>
       <datasheet>https://www.mouser.fr/datasheet/2/308/1/MOC3043M_D-1811826.pdf</datasheet>
       <fields>
-        <field name="manf#">MOC3041VM</field>
+        <field name="manf#">MOC3041M</field>
       </fields>
       <libsource lib="CaptorBoard-rescue" part="MOC3041M-opto" description=""/>
-      <property name="manf#" value="MOC3041VM"/>
+      <property name="manf#" value="MOC3041M"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CaptorBoard.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
