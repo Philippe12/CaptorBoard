@@ -1,4 +1,4 @@
-21669252861777650
+21664862540339396
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64616,6 +64616,34 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PCM_kikit
+Board
+Mark board for extraction
+
+0
+0
+0
+PCM_kikit
+Fiducial
+Circular Fiducial
+fiducial
+0
+1
+0
+PCM_kikit
+NPTH
+
+
+0
+0
+0
+PCM_kikit
+Tab
+A symbol representing annotation for tab placement
+
+0
+0
+0
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
@@ -83565,6 +83593,62 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
+SnapEDA Library
+21-0040F
+
+
+0
+36
+36
+SnapEDA Library
+CONV_TEN_60-2415
+
+
+0
+8
+8
+SnapEDA Library
+CONV_TEP_75-2411WI
+
+
+0
+9
+9
+SnapEDA Library
+CONV_TEP_160-4813
+
+
+0
+10
+10
+SnapEDA Library
+CONV_TES_5-2422WI
+
+
+0
+14
+14
+SnapEDA Library
+CONV_THM_3-0512
+
+
+0
+5
+5
+SnapEDA Library
+CONV_THM_10-1223
+
+
+0
+6
+6
+SnapEDA Library
+PSON50P145X100X60-6N
+
+
+0
+6
+6
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)
@@ -90366,6 +90450,27 @@ pfo
 VTX-214-005-x
 
 
+0
+5
+5
+preso
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+preso
+SOD3816X135N
+CMHSH5-2L TR
+Zener Diode
+0
+2
+2
+preso
+SOT95P280X145-5N
+STMPS2171STR
+Switch
 0
 5
 5
