@@ -573,6 +573,26 @@
       {
         "netclass": "Sector",
         "pattern": "/Phase_in"
+      },
+      {
+        "netclass": "Sector",
+        "pattern": "/V+"
+      },
+      {
+        "netclass": "Sector",
+        "pattern": "/V-"
+      },
+      {
+        "netclass": "Sector",
+        "pattern": "/Vp"
+      },
+      {
+        "netclass": "Sector",
+        "pattern": "/Vm"
+      },
+      {
+        "netclass": "Sector",
+        "pattern": "/Phase_f"
       }
     ]
   },
